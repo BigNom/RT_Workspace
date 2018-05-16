@@ -1,0 +1,5 @@
+[SETTINGS=bpOptions]
+   logFile=_USTN_OUT:batchprocess.log
+   cmdFileName=D:\WKSpace\RT_Workspace\RioTinto\data\Drg_Check.txt
+   clearLog=1
+   initialModel=-18

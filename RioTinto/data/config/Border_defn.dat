@@ -1,0 +1,21 @@
+;
+;  Border List Defintion file.  Used to set Border Cell for the equivalent Sheet View
+;
+;  Comment lines start with a semi-colon (;) and are ignored by the program. Don't use Tabs
+;
+;  The Border List is a comma-separated text file that has the following fields:
+;  Sheet Size, CellName,     CellLibrary,     X Length,    Y Length.
+;
+;  X Length and Y length not required if using Standard ISO sizes.
+;  Leading and trailing spaces in each field are stripped off by the program.
+;
+;
+A0,   RTA0,   RT_Borders
+A1,   RTA1,   RT_Borders
+A2,   RTA2,   RT_Borders
+A3,   RTA3,   RT_Borders
+B1,   RTB1,   RT_Borders
+A0,   RTHA0,   RT_Fire_Emergency
+A1,   RTHA1,   RT_Fire_Emergency
+A2,   RTHA2,   RT_Fire_Emergency
+A3,   RTHA3,   RT_Fire_Emergency

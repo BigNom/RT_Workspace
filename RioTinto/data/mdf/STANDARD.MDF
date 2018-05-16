@@ -1,0 +1,82 @@
+;----------------------------------------------------------------
+;RioTinto Standard Levels Menu Bar
+;----------------------------------------------------------------
+#RioTinto Level Control
+;
+; --- load required mdl commands next ----
+
+; --- now build pull down menus ---
+Mech Services
+    {
+    Equipment Outlines,   "lv=M_Equipment;active symbology bylevel;place line constrained"
+    Existing Equipment,   "lv=M_Exist;active symbology bylevel;place line constrained"
+    Equipment Centrelines,   "lv=M_CentreLine;active symbology bylevel;place line constrained"
+    Hidden & Minor Lines,   "lv=M_Hidden_Line;active symbology bylevel;place line constrained"
+    Stairways & Walkways,   "lv=M_Stairways_Walkways_Prelim;active symbology bylevel;place line constrained"
+    Supports,   "lv=M_Supports_Piping_Ducting_Prelim;active symbology bylevel;place line constrained"
+    Conveyor Belting,   "lv=M_Conveyor_Belt_Outline;active symbology bylevel;place line constrained" 
+    Piping - Air,   "lv=P_Air_Double;active symbology bylevel;place line constrained" 
+    Piping - Oil,   "lv=P_Oil_Double;active symbology bylevel;place line constrained" 
+    Piping - Water,   "lv=P_Water_Double;active symbology bylevel;place line constrained" 
+    Ducting - HVAC,   "lv=M_HVAC;active symbology bylevel;place line constrained" 
+    Cable Ladders,   "lv=M_Elect_CableLadder;active symbology bylevel;place line constrained"
+    }
+Architectural
+    {
+    Plans & Elevations, "lv=A_Plans_Elev;active symbology bylevel;place line constrained"
+    Details & Sections, "lv=A_Dets_Sects;active symbology bylevel;place line constrained"
+    Landscaping, "lv=A_Landscaping;active symbology bylevel;place line constrained"
+    }
+Civil/Struc
+    {
+    Building & Column Centrelines, "lv=S_CentreLine;active symbology bylevel;place line constrained"
+    Grid Balloons, "lv=S_Building_Grid;active symbology bylevel;place line constrained"
+    Beams, "lv=S_Beams;active symbology bylevel;place line constrained"
+    Bracing, "lv=S_Bracing;active symbology bylevel;place line constrained"
+    Liners, "lv=S_Liner_Plates;active symbology bylevel;place line constrained"
+    Bolt Holes, "lv=S_Bolting;active symbology bylevel;place line constrained"
+    Concrete Outlines, "lv=C_Outlines;active symbology bylevel;place line constrained"
+    Concrete Reo Bars, "lv=C_Reinforcing_Top;active symbology bylevel;place line constrained"
+    Earth Lines & Section Symbols, "lv=Y_EarthLines;active symbology bylevel;place line constrained"
+    Drainage, "lv=Y_Drainage;active symbology bylevel;place line constrained"
+    Roads, "lv=Y_Roads_Formation_Lines;active symbology bylevel;place line constrained"
+    Existing Structural, "lv=S_Bolting;active symbology bylevel;place line constrained"
+    }
+Cartographic
+    {
+    Existing Surfaces Features, "lv=Y_Surface_Features_Exist;active symbology bylevel;place line constrained"
+    Existing Building Outlines, "lv=Y_Building_Outline_Design;active symbology bylevel;place line constrained"
+    Existing Contours - Major, "lv=Y_Contours_Exist_Major;active symbology bylevel;place line constrained"
+    Existing Contours - Minor, "lv=Y_Contours_Exist_Minor;active symbology bylevel;place line constrained"
+    -,    
+    Design Surface Features - Major, "lv=Y_DES_Surface_Features_Major;active symbology bylevel;place line constrained"
+    Design Surface Features - Minor, "lv=Y_DES_Surface_Features_Minor;active symbology bylevel;place line constrained"
+    Design Building Outline, "lv=Y_Building_Outline_Design;active symbology bylevel;place line constrained"
+    Design Contours - Major, "lv=Y_Contours_Design_Major;active symbology bylevel;place line constrained"
+    Design Contours - Minor, "lv=Y_Contours_Design_Minor;active symbology bylevel;place line constrained"
+    -,
+    Topo Grids & Monuments, "lv=Y_Tadpoles_Ground_Slope_Cells;active symbology bylevel;place line constrained"
+    Ground Slope Symbols, "lv=;active symbology bylevel;place line constrained"
+    }
+    Electrotechnical
+    {
+    Loc Diag - Light & Power, "lv=E_Location_Diagram_Lighting_and_Power;active symbology bylevel;place line constrained"
+    Loc Diag - Telecommunication, "lv=E_Location_Diagram_Railway_Signals;active symbology bylevel;place line constrained"
+    Loc Diag - Railway Signals, "lv=;active symbology bylevel;place line constrained"
+    Cable Routes - Telecommunication, "lv=E_Cable_Routes_Communication;active symbology bylevel;place line constrained"
+    Cable Routes - Railway Signals, "lv=E_Cable_Routes_Railway_Signals;active symbology bylevel;place line constrained"
+    Railway Signal & Electr. Track Plans, "lv=E_Railway_Signal_and_Track_Electrification_Plans;active symbology bylevel;place line constrained"
+    Schematic Diagrams - Cells, "lv=F_Schematic;active symbology bylevel;place line constrained"
+    Schematic Diagrams - Linework, "lv=F_Schematic;active symbology bylevel;place line constrained"
+    -,
+    Electrical Cells, "rc=RT_Elec;dialog cellmaintenance"
+    }     
+    General
+    {
+    Active Points, "lv=G_Active_Points;active symbology bylevel;place line constrained"
+    Construction Lines, "lv=G_Construction_Lines;active symbology bylevel;place line constrained"
+    Dimensions, "lv=G_Dimensions;active symbology bylevel;place line constrained"
+    Notes, "lv=G_Notes;active symbology bylevel;place line constrained"
+    Revision Clouds, "lv=G_Revisions;active symbology bylevel;place line constrained;place revcloud points"
+        }
+

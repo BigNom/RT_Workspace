@@ -1,0 +1,153 @@
+%section,Levels
+Level,V8OutputLevel,Required
+%%1,G_CenterLines,0
+%%2,M_Equipment,0
+%%3,M_Hidden,0
+%%4,S_Stairs,0
+%%5,P_Pipe_Supports,0
+%%6,M_Conveyor_Belt_Outline,0
+%%7,P_Air_Double,0
+%%8,P_Oil_Double,0
+%%9,P_Water_Double,0
+%%10,M_HVAC,0
+%%11,M_Elect_CableLadder,0
+%%12,M_Existing_Equipment,0
+%%13,G_Company_Logos,0
+%%14,M_Cells,0
+%%15,M_Linework,0
+%%16,H_Cells,0
+%%17,A_Plans_Elev,0
+%%18,A_Dets_Sects,0
+%%19,A_Landscaping,0
+%%20,S_Building_Grid,0
+%%21,Not Allocated Level 21,0
+%%22,S_Primary_Structural_Steel,0
+%%23,S_Secondary_Structural_steel,0
+%%24,M_Liners,0
+%%25,S_Bolting,0
+%%26,C_Outlines,0
+%%27,C_Reinforcing_Btm,0
+%%28,Y_EarthLines,0
+%%29,Y_Roads_Formation_Lines,0
+%%30,S_Existing,0
+%%31,Y_Existing,0
+%%32,Y_Surface_Features_Exist,0
+%%33,Y_Building_Outlines_Exist,0
+%%34,Y_Contours_Exist_Major,0
+%%35,Y_Contours_Exist_Minor,0
+%%36,Y_Surface_Features_Design_Major,0
+%%37,Y_Surface_Features_Design_Minor,0
+%%38,Y_Building_Outline_Design,0
+%%39,Y_Contours_Design_Major,0
+%%40,Y_Contours_Design_Minor,0
+%%41,Y_Survey_Marks,0
+%%42,Y_Tadpoles_Ground_Slope_Cells,0
+%%43,E_Location_Diagram_Major_Electrical_Equipment,0
+%%44,E_Location_Diagram_Minor_Electrical_Equipment,0
+%%45,E_Location_Diagram_Lighting_and_Power,0
+%%46,J_Location_Diagram_Instrumentation,0
+%%47,T_Location_Diagram_Telecommunication,0
+%%48,E_Location_Diagram_Railway_Signals,0
+%%49,E_Overhead_Lines,0
+%%50,E_Location_Diagram_Lighting_and_Power,0
+%%51,J_Cable_Routes_Instrumentation,0
+%%52,E_Cable_Routes_Communication,0
+%%53,E_Cable_Routes_Railway_Signals,0
+%%54,E_Railway_Signal_and_Track_Electrification_Plans,0
+%%55,E_Cells,0
+%%56,E_Linework,0
+%%57,Not Allocated level 57,0
+%%58,G_Active_Points,0
+%%59,G_Dimensions,0
+%%60,"G_Revisions, Clouds, Text",0
+%%61,Not Allocated Level 61,0
+%%62,G_Border,0
+%%63,Not Allocated Level 63,0
+%%64,Default,0
+Centrelines,G_CenterLines,
+Equipment Outlines,M_Equipment,
+Hidden Lines,M_Hidden,
+Stairways (non RC) Walkways Handrails,S_Stairs,
+Stands and Supports for Piping and Ducting,P_Pipe_Supports,
+Conveyor Belting,M_Conveyor_Belt_Outline,
+Piping Air,P_Air_Double,
+Piping Oil,P_Oil_Double,
+Piping Water,P_Water_Double,
+HVAC Ducting,M_HVAC,
+Cable Trays and Ladders Ducting,M_Elect_CableLadder,
+Existing Mechanical,M_Existing_Equipment,
+Company Logos,G_Company_Logos,
+Cells on Mechanical Schematic Diagrams,M_Cells,
+Linework on Mechanical Schematic Diagrams,M_Linework,
+IronSafe Cells,H_Cells,
+Architectural Plans and Elevations,A_Plans_Elev,
+Architectural Details and Sections,A_Dets_Sects,
+Architectural Landscaping,A_Landscaping,
+Column and Building Grid Lines,S_Building_Grid,
+Not Allocated Level 21,Not Allocated Level 21,
+Primary Structural Steel,S_Primary_Structural_Steel,
+Secondary Structural Steel,S_Secondary_Structural_steel,
+Liner Plates,M_Liners,
+Bolts and Bolt Holes,S_Bolting,
+Concrete Outlines,C_Outlines,
+Concrete Reinforcement,C_Reinforcing_Btm,
+Earth Lines,Y_EarthLines,
+Roads and Drainage,Y_Roads_Formation_Lines,
+Existing Structural,S_Existing,
+Existing Services,Y_Existing,
+Existing Surface Features,Y_Surface_Features_Exist,
+Existing Building Outlines,Y_Building_Outlines_Exist,
+Existing Contours Major,Y_Contours_Exist_Major,
+Existing Contours Minor,Y_Contours_Exist_Minor,
+Design Surface Features Major,Y_Surface_Features_Design_Major,
+Design Surface Features Minor,Y_Surface_Features_Design_Minor,
+Design Building Outline,Y_Building_Outline_Design,
+Design Contours Major,Y_Contours_Design_Major,
+Design Contours Minor,Y_Contours_Design_Minor,
+Topographical Grids and Monuments,Y_Survey_Marks,
+Tadpoles Ground Slope Cells,Y_Tadpoles_Ground_Slope_Cells,
+Location Diagram Major Electrical Equipment,E_Location_Diagram_Major_Electrical_Equipment,
+Location Diagram Minor Electrical Equipment,E_Location_Diagram_Minor_Electrical_Equipment,
+Location Diagram Lighting and Power,E_Location_Diagram_Lighting_and_Power,
+Location Diagram Instrumentation,J_Location_Diagram_Instrumentation,
+Location Diagram Telecommunication,T_Location_Diagram_Telecommunication,
+Location Diagram Railway Signals,E_Location_Diagram_Railway_Signals,
+Cable Routes Overhead lines,E_Overhead_Lines,
+Cable Routes Lighting and Power,E_Location_Diagram_Lighting_and_Power,
+Cable Routes Instrumentation,J_Cable_Routes_Instrumentation,
+Cable Routes Communication,E_Cable_Routes_Communication,
+Cable Routes Railway Signals,E_Cable_Routes_Railway_Signals,
+Railway Signal and Track Electrification Plans,E_Railway_Signal_and_Track_Electrification_Plans,
+Electrical Cells,E_Cells,
+Electrical Linework,E_Linework,
+Not Allocated level 57,Not Allocated level 57,
+Active Points,G_Active_Points,
+Text and Dimensions,G_Dimensions,
+Revision Triangles and Clouds,G_Revisions_Clouds_Text,
+Not Allocated Level 61,Not Allocated Level 61,
+62,G_Border,
+Not Allocated Level 63,Not Allocated Level 63,
+Default,Default,
+%section,Weights
+Weight,V8OutputWeight
+0,1
+1,2
+2,3
+3,4
+4,5
+5,6
+6,7
+7,8
+8,9
+9,10
+10,11
+11,12
+12,13
+13,14
+14,15
+15,16
+16,17
+17,18
+18,19
+19,20
+20,21

@@ -1,0 +1,109 @@
+;;-----------------------------------------------------------------------------------+
+;;
+;;    $RCSfile: plotstyles.lin,v $
+;;   $Revision: 1.2 $
+;;       $Date: 2002/06/06 20:38:48 $
+;;
+;; Copyright (c) 2001;  Bentley Systems,Inc.,685 Stockton Drive,
+;;                      Exton PA,19341-0678,USA.  All Rights Reserved.
+;;
+;; "MicroStation" and "MDL",are trademarks of Bentley   Systems,Inc.
+;;
+;;  Limited permission is hereby granted to reproduce and modify this
+;;  copyrighted material provided that the resulting code is used only
+;;  in conjunction with Bentley Systems products under the terms of the
+;;  license agreement provided therein,and that this notice is retained
+;;  in its entirety in any such reproduction or modification.
+;;
+;;----------------------------------------------------------------------------------*/
+;;
+*_LIN Dashed,_LIN Dashed
+A,3.81,-2.54
+
+*_LIN Dotted,_LIN Dotted
+A,0,-2.54
+
+*_LIN Dash Dot,_LIN Dash Dot
+A,3.175,-1.5875,0,-1.5875
+
+*_LIN Short-Dash,_LIN Short-Dash
+A,3.175,-9.525
+
+*_LIN Medium-Dash,_LIN Medium-Dash
+A,6.35,-6.35
+
+*_LIN Long-Dash,_LIN Long-Dash
+A,9.525,-3.175
+
+*_LIN Short-Dash X2,_LIN Short-Dash X2
+A,6.35,-19.05
+
+*_LIN Medium-Dash X2,_LIN Medium-Dash X2
+A,12.7,-12.7
+
+*_LIN Long-Dash X2,_LIN Long-Dash X2
+A,19.05,-6.35
+
+*_LIN Medium-Long-Dash,_LIN Medium-Long-Dash
+A,7.62,-5.08
+
+*_LIN Medium-Dash Short-Dash Short-Dash,_LIN Medium-Dash Short-Dash Short-Dash
+A,5.08,-1.27,1.778,-1.27,1.778,-1.27
+
+*_LIN Long-Dash Short-Dash,_LIN Long-Dash Short-Dash
+A,8.89,-1.27,1.27,-1.27
+
+*_LIN Long-Dash Dot Dot,_LIN Long-Dash Dot Dot
+A,8.89,-1.27,0,-1.27,0,-1.27
+
+*_LIN Long-Dash Dot,_LIN Long-Dash Dot
+A,10.16,-1.27,0,-1.27
+
+*_LIN Medium-Dash Dot Short-Dash Dot,_LIN Medium-Dash Dot Short-Dash Dot
+A,6.35,-1.27,0,-1.27,1.27,-1.27,0,-1.27
+
+*_LIN Sparse Dot,_LIN Sparse Dot
+A,0,-12.7
+
+*ACAD_ISO02W100,ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __
+A,12,-3
+
+*ACAD_ISO03W100,ISO dash space __    __    __    __    __    __
+A,12,-18
+
+*ACAD_ISO04W100,ISO long-dash dot ____ . ____ . ____ . ____ . _
+A,24,-3,0,-3
+
+*ACAD_ISO05W100,ISO long-dash double-dot ____ .. ____ .. ____ . 
+A,24,-3,0,-3,0,-3
+
+*ACAD_ISO06W100,ISO long-dash triple-dot ____ ... ____ ... ____
+A,24,-3,0,-3,0,-3,0,-3
+
+*ACAD_ISO07W100,ISO dot . . . . . . . . . . . . . . . . . . . . 
+A,0,-3
+
+*ACAD_ISO08W100,ISO long-dash short-dash ____ __ ____ __ ____ _
+A,24,-3,6,-3
+
+*ACAD_ISO09W100,ISO long-dash double-short-dash ____ __ __ ____
+A,24,-3,6,-3,6,-3
+
+*ACAD_ISO10W100,ISO dash dot __ . __ . __ . __ . __ . __ . __ . 
+A,12,-3,0,-3
+
+*ACAD_ISO11W100,ISO double-dash dot __ __ . __ __ . __ __ . __ _
+A,12,-3,12,-3,0,-3
+
+*ACAD_ISO12W100,ISO dash double-dot __ . . __ . . __ . . __ . . 
+A,12,-3,0,-3,0,-3
+
+*ACAD_ISO13W100,ISO double-dash double-dot __ __ . . __ __ . . _
+A,12,-3,12,-3,0,-3,0,-3
+
+*ACAD_ISO14W100,ISO dash triple-dot __ . . . __ . . . __ . . . _
+A,12,-3,0,-3,0,-3,0,-3
+
+*ACAD_ISO15W100,ISO double-dash triple-dot __ __ . . . __ __ . .
+A,12,-3,12,-3,0,-3,0,-3,0,-3
+

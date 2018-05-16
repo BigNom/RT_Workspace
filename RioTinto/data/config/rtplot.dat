@@ -1,0 +1,24 @@
+;
+;  Printer List (rtplot.dat) for RioTinto Plot Utility
+;
+;  Comment lines start with a semi-colon (;) and are ignored by the program.
+;
+;  The Printer List is a comma-separated text file that has the following fields:
+;  Site,     Printer Name,     Configuration File,    Network Path.
+;
+;	####TABS ARE NOT TO BE USED.####
+;
+;  Leading and trailing spaces in each field are stripped off by the program.
+;
+;
+; Site                     Printer Name                       Config File      		Network Path
+;
+All Sites                  ,PDF(A1)                           ,pdf.pltcfg
+All Sites                  ,System Printer                    ,printer.pltcfg
+All Sites                  ,PDF(A3)                           ,pdf.pltcfg
+All Sites                  ,PDF(A2)                           ,pdf.pltcfg
+All Sites                  ,PDF(A0)                           ,pdf.pltcfg
+All Sites                  ,PDF(B1)                           ,pdf.pltcfg
+Perth                      ,DocuCentre C450                   ,DocuCentreC2200.pltcfg      ,\\SBSCPAP09\PIQU1601 
+Perth                      ,Quadrant HP T1100                 ,hpgl2.pltcfg                ,\\SBSCPAP09\PIQU1402
+

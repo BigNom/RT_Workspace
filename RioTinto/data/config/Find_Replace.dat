@@ -1,0 +1,12 @@
+;
+;  This dat file provides the information to search tags in the drawing and replace
+;  with the specified replacement string
+;
+;  Find and Replace text strings are separated by the pipe (|) symbol. The Tag Set option can
+;  be defined or left off as required
+;
+;  Find Text Tag-String|Replace Text Tag-String|Tag Set(Optional)
+;
+AS-CONSTRUCTED FOR PN 10036|CONSTRUCTED FOR PN10036
+
+

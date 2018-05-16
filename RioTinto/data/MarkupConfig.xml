@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ConfigurationRoot>
+
+    <PrioritySettings>
+        <Priority default="false">Low</Priority>
+        <Priority default="true">Normal</Priority>
+        <Priority default="false">High</Priority>
+    </PrioritySettings>
+
+    <StatusSettings>
+        <Status default="true">Not started</Status>
+        <Status default="false">In progress</Status>
+        <Status default="false">Completed</Status>
+        <Status default="false">Waiting on someone else</Status>
+        <Status default="false">Deferred</Status>
+    </StatusSettings>
+
+    <!-- Up to four user-defined properties may be defined below. -->
+
+    <!-- Example of a user-defined property with a fixed list of possible values -->
+    <!--
+    <User1Settings displayLabel="Category">
+        <User1>Internal</User1>
+        <User1>External</User1>
+    </User1Settings>
+    -->
+
+    <!-- Example of a user-defined property with a list of values, but the end-user may enter a value not in the list -->
+    <!--
+    <User2Settings displayLabel="Color" constrained="false">
+        <User2>Red</User2>
+        <User2>Orange</User2>
+        <User2>Yellow</User2>
+        <User2>Green</User2>
+        <User2 default="true">Blue</User2>
+        <User2>Indigo</User2>
+        <User2>Violet</User2>
+    </User2Settings>
+    -->
+
+    <!-- Example of a user-defined property that defines only a label -->
+    <!--
+    <User3Settings displayLabel="Account">
+    </User3Settings>
+    -->
+
+</ConfigurationRoot>

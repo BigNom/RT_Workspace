@@ -1,0 +1,47 @@
+;----------------------------------------------------------------
+;RioTinto IronSafe Levels & Utilities Menu Bar
+;----------------------------------------------------------------
+#IronSafe Level Control
+;
+; --- load required mdl commands next ----
+; --- now build pull down menus ---
+Walls & Doors
+    {
+    External Walls,   		"lv=H_External_Walls;active symbology bylevel; place line constrained"
+    Internal Walls,   		"lv=H_Internal_Walls;active symbology bylevel; place line constrained"
+    Doors,Barriers,Fences etc,  "lv=H_Doors_Barriers_Fences;active symbology bylevel; place line constrained"
+    }
+Areas of Responsibility
+    {
+    Cream,   			"lv=H_Resp_Cream;active symbology bylevel;place block"
+    Light Blue,   		"lv=H_Resp_Lt_Blue;active symbology bylevel;place block"
+    Pink,   			"lv=H_Resp_Pink;active symbology bylevel;place block"
+    Light Green,  		"lv=H_Resp_Lt_Green;active symbology bylevel;place block"
+    Orange,   			"lv=H_Resp_Orange;active symbology bylevel;place block"
+    Dark Green,   		"lv=H_Resp_Dk_Green;active symbology bylevel;place block"
+    }
+Areas
+    {
+    Demarcation Lines,   	"lv=H_Area_Demarcation;active symbology bylevel;place line constrained"
+    Clearway,  			"lv=H_Area_Clearway;active symbology bylevel;place line constrained"
+    Work Area, 			"lv=H_Area_Work;active symbology bylevel;place line constrained"
+    Laydown Area, 		"lv=H_Area_Laydown;active symbology bylevel;place line constrained"
+    Keep Clear Area, 		"lv=H_Area_Keep_Clear;active symbology bylevel;place line constrained"
+    Hazard Identification, 	"lv=H_Area_Hazard_Id;active symbology bylevel;place line constrained"
+    }
+Bins
+    {
+    Standard Rubbish Bin, 	"lv=H_Bin_Std_Rubbish;active symbology bylevel;place line constrained"
+    Metal Waste Bin, 		"lv=H_Bin_Metal_Waste;active symbology bylevel;place line constrained"
+    Rubber Waste Bin, 		"lv=H_Bin_Rubber_Waste;active symbology bylevel;place line constrained"
+    Flammable Waste Bin, 	"lv=H_Bin_Flammable_Waste;active symbology bylevel;place line constrained"
+    Asbestos Waste Bin, 	"lv=H_Bin_Asbestos_Waste;active symbology bylevel;place line constrained"
+    }
+Cells / Sheets
+    {
+    Fire & Emergency Legend, "ac=F&E;place cell absolute"
+    Areas of Responsibilty Legend, "ac=A&R;place cell absolute"
+    -,
+    View HIsafe Cell Library, "rc=iRONsafe.cel;sh lib;p,pacell"
+    }
+
