@@ -11,6 +11,15 @@
 		_USTN_PROJECTDESCR 	= Yandi Air System
 
 #======================================================================
+# AERISON DATASET
+#
+# Point to the Aerison dataset for shared resources
+# dgnlib files for AER_LEVELS
+#======================================================================
+
+AERISON_DATASET		= N:/14_EngineeringServices/Drafting/Admin/_Sandbox/AER_Workspace/BuildingDatasets/Dataset_Aerison/
+
+#======================================================================
 # Datasets
 #
 # Note: if you set TF_DATASETNAME here, you must include the Dataset.cfg file.
@@ -211,7 +220,7 @@
 	# BB_LEVEL_DGNLIBLIST: Appends the location and the name of the DGN libraries of levels and level filters
 	# comment out those that are not required
 
-		BB_LEVEL_DGNLIBLIST > $(PROJ_DATASET)dgnlib/Levels_*.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(AERISON_DATASET)dgnlib/LEVELS_*.dgnlib
 		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_*.dgnlib		
 		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Architectural_ANZ.dgnlib
 		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Civil_ANZ.dgnlib
