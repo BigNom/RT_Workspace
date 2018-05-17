@@ -17,11 +17,11 @@
 #======================================================================
 
 	# Defines Primary Localized Dataset
-		TF_DATASETNAME = Dataset_ANZ
+		#TF_DATASETNAME = Dataset_ANZ
 
-			%if exists ($(TFDIR)Dataset.cfg)
-			% include $(TFDIR)Dataset.cfg
-			%endif
+		#	%if exists ($(TFDIR)Dataset.cfg)
+		#	% include $(TFDIR)Dataset.cfg
+		#	%endif
 
 #======================================================================
 # Establish discipline-specific paths and files:
