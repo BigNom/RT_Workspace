@@ -9,16 +9,6 @@
 #======================================================================
 	# Project Description as it will appear in Workspace menu > About Workspace
 		_USTN_PROJECTDESCR 	= Yandi Air System
-
-#======================================================================
-# AERISON DATASET
-#
-# Point to the Aerison dataset for shared resources
-# dgnlib files for AER_LEVELS
-#======================================================================
-
-AERISON_DATASET		= N:/14_EngineeringServices/Drafting/Admin/_Sandbox/AER_Workspace/BuildingDatasets/Dataset_Aerison/
-
 #======================================================================
 # Datasets
 #
@@ -220,20 +210,20 @@ AERISON_DATASET		= N:/14_EngineeringServices/Drafting/Admin/_Sandbox/AER_Workspa
 	# BB_LEVEL_DGNLIBLIST: Appends the location and the name of the DGN libraries of levels and level filters
 	# comment out those that are not required
 
-		#BB_LEVEL_DGNLIBLIST > $(AERISON_DATASET)dgnlib/LEVELS_*.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(RIOTINTO_DATASET)dgnlib/LEVELS_*.dgnlib
 		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_*.dgnlib		
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Architectural_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Civil_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Electrical_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Equipment_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_FireProtection_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Architectural_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Civil_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Electrical_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Equipment_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_FireProtection_ANZ.dgnlib
 		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_General_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Interiors_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Landscape_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Interiors_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Landscape_ANZ.dgnlib
 		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Mechanical_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Plumbing_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Plumbing_ANZ.dgnlib
 		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Structural_ANZ.dgnlib
-		BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Surveyor_ANZ.dgnlib
+		#BB_LEVEL_DGNLIBLIST > $(TFDIR)dgnlib/Levels_Surveyor_ANZ.dgnlib
 		
 
 	#Specifies the level name formatting to use when level lists are displayed. 

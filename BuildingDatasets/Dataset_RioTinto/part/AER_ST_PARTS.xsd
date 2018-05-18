@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="TriForma">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Parts">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PartFamily">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Description" type="xs:string" />
+										<xs:element name="Units">
+											<xs:complexType>
+												<xs:attribute name="master" type="xs:string" use="required" />
+												<xs:attribute name="sub" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element maxOccurs="unbounded" name="Part">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Description" type="xs:string" />
+													<xs:element name="Model">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Level" type="xs:string" />
+																<xs:element name="Symbology">
+																	<xs:complexType>
+																		<xs:attribute name="color" type="xs:string" use="required" />
+																		<xs:attribute name="style" type="xs:string" use="required" />
+																		<xs:attribute name="weight" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="thickness" type="xs:decimal" use="required" />
+															<xs:attribute name="height" type="xs:decimal" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="CutView">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Level" type="xs:string" />
+																<xs:element name="Symbology">
+																	<xs:complexType>
+																		<xs:attribute name="color" type="xs:string" use="required" />
+																		<xs:attribute name="style" type="xs:string" use="required" />
+																		<xs:attribute name="weight" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="Unifier">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute name="activate" type="xs:boolean" use="required" />
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="activate" type="xs:boolean" use="required" />
+															<xs:attribute name="cutInCompoundCells" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="FrontAndRearView">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Level" type="xs:string" />
+																<xs:element name="Symbology">
+																	<xs:complexType>
+																		<xs:attribute name="color" type="xs:string" use="required" />
+																		<xs:attribute name="style" type="xs:string" use="required" />
+																		<xs:attribute name="weight" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="Unifier">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:attribute name="activate" type="xs:boolean" use="required" />
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="activate" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="CutPatterns">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="FilledColor">
+																	<xs:complexType>
+																		<xs:attribute name="activate" type="xs:boolean" use="required" />
+																		<xs:attribute name="color" type="xs:unsignedByte" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="Pattern">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="LinearHatching">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="Symbology">
+																							<xs:complexType>
+																								<xs:attribute name="color" type="xs:unsignedByte" use="required" />
+																								<xs:attribute name="style" type="xs:string" use="required" />
+																								<xs:attribute name="weight" type="xs:unsignedByte" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute name="angle1" type="xs:decimal" use="required" />
+																					<xs:attribute name="spacing1" type="xs:decimal" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="CrossHatching">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="Symbology">
+																							<xs:complexType>
+																								<xs:attribute name="color" type="xs:unsignedByte" use="required" />
+																								<xs:attribute name="style" type="xs:string" use="required" />
+																								<xs:attribute name="weight" type="xs:unsignedByte" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute name="angle1" type="xs:decimal" use="required" />
+																					<xs:attribute name="spacing1" type="xs:decimal" use="required" />
+																					<xs:attribute name="angle2" type="xs:decimal" use="required" />
+																					<xs:attribute name="spacing2" type="xs:decimal" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="Patterning">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="Cell">
+																							<xs:complexType>
+																								<xs:attribute name="angle" type="xs:decimal" use="required" />
+																								<xs:attribute name="scale" type="xs:decimal" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute name="rowSpacing" type="xs:decimal" use="required" />
+																					<xs:attribute name="columnSpacing" type="xs:decimal" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute name="mode" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="activate" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Centerline">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Level" type="xs:string" />
+																<xs:element name="Symbology">
+																	<xs:complexType>
+																		<xs:attribute name="color" type="xs:unsignedByte" use="required" />
+																		<xs:attribute name="style" type="xs:unsignedByte" use="required" />
+																		<xs:attribute name="weight" type="xs:unsignedByte" use="required" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="CustomLine">
+																	<xs:complexType>
+																		<xs:attribute name="scaleToForm" type="xs:boolean" use="required" />
+																		<xs:attribute name="scale" type="xs:decimal" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+															<xs:attribute name="activate" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Rendering">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Palette" type="xs:string" />
+																<xs:element name="Material" type="xs:string" />
+															</xs:sequence>
+															<xs:attribute name="activate" type="xs:boolean" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Notation">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element maxOccurs="unbounded" name="Dimension">
+																	<xs:complexType>
+																		<xs:attribute name="type" type="xs:string" use="required" />
+																		<xs:attribute name="side" type="xs:string" use="required" />
+																		<xs:attribute name="offset" type="xs:decimal" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Quantification">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="CompFormula">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="ComponentRef">
+																				<xs:complexType>
+																					<xs:attribute name="family" type="xs:string" use="required" />
+																					<xs:attribute name="component" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="Formula" type="xs:string" />
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="TriFormaApp">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Structural">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="MemberLine">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="Level" type="xs:string" />
+																						<xs:element name="Symbology">
+																							<xs:complexType>
+																								<xs:attribute name="color" type="xs:string" use="required" />
+																								<xs:attribute name="style" type="xs:string" use="required" />
+																								<xs:attribute name="weight" type="xs:string" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute name="constructionClass" type="xs:boolean" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="Geometry">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="CrossSection">
+																							<xs:complexType>
+																								<xs:attribute name="sectionName" type="xs:string" use="required" />
+																								<xs:attribute name="showFillets" type="xs:boolean" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="Orientation">
+																							<xs:complexType>
+																								<xs:attribute name="rotation" type="xs:decimal" use="required" />
+																								<xs:attribute name="mirror" type="xs:boolean" use="required" />
+																								<xs:attribute name="placementPoint" type="xs:string" use="required" />
+																								<xs:attribute name="localYOffset" type="xs:decimal" use="required" />
+																								<xs:attribute name="localZOffset" type="xs:decimal" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="Placement">
+																							<xs:complexType>
+																								<xs:attribute name="placeBy" type="xs:string" use="required" />
+																								<xs:attribute name="length" type="xs:decimal" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="Coping">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="Clearance">
+																							<xs:complexType>
+																								<xs:attribute name="flangeClearance" type="xs:decimal" use="required" />
+																								<xs:attribute name="webClearance" type="xs:decimal" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="Corner">
+																							<xs:complexType>
+																								<xs:attribute name="cornerType" type="xs:string" use="required" />
+																								<xs:attribute name="cornerRadius" type="xs:decimal" use="required" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																					<xs:attribute name="automaticCoping" type="xs:boolean" use="required" />
+																					<xs:attribute name="copingType" type="xs:string" use="required" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="DataLabels">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element maxOccurs="unbounded" name="Data">
+																							<xs:complexType>
+																								<xs:attribute name="type" type="xs:string" use="required" />
+																								<xs:attribute name="name" type="xs:string" use="optional" />
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute name="version" type="xs:string" use="required" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="AnalyticalMaterial" />
+												</xs:sequence>
+												<xs:attribute name="name" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" use="required" />
+									<xs:attribute name="version" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
