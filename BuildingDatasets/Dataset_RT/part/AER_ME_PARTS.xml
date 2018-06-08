@@ -17,7 +17,7 @@
 					<Unifier activate="false">SELF UNIFIER</Unifier>
 				</CutView>
 				<FrontAndRearView activate="true">
-					<Level>M_DETAIL</Level>
+					<Level>AER-ME-BIN-BASEPLATES</Level>
 					<Symbology color="BYLEVEL" style="BYLEVEL" weight="BYLEVEL"/>
 					<Unifier activate="false">SELF UNIFIER</Unifier>
 				</FrontAndRearView>
@@ -1993,7 +1993,7 @@
 					<Unifier activate="false">SELF UNIFIER</Unifier>
 				</CutView>
 				<FrontAndRearView activate="true">
-					<Level>M-BRIN-EQPM</Level>
+					<Level>AER-ME-CONV-BELT</Level>
 					<Symbology color="BYLEVEL" style="BYLEVEL" weight="BYLEVEL"/>
 					<Unifier activate="false">SELF UNIFIER</Unifier>
 				</FrontAndRearView>
