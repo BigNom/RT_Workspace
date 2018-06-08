@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:element name="Pset_SpaceThermalDesign">
+                <xs:complexType>
+                        <xs:attribute name="CoolingDesignAirflow" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="HeatingDesignAirflow" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="TotalSensibleHeatGain" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="TotalHeatGain" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="TotalHeatLoss" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="CoolingDryBulb" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="CoolingRelativeHumidity" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="HeatingDryBulb" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="HeatingRelativeHumidity" type="xs:decimal" use="optional"  default="0"/>
+                        <xs:attribute name="VentilationAirFlowrate" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="ExhaustAirFlowrate" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="CeilingRAPlenum" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="BoundaryAreaHeatLoss" type="xs:decimal" use="optional" default="0"/>
+                </xs:complexType>
+        </xs:element>
+</xs:schema>
+

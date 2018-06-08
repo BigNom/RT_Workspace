@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:element name="Pset_OpeningElementCommon">
+                <xs:complexType>
+                        <xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="Purpose" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="ParallelJambs" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="FireExit" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="ProtectedOpening" type="xs:boolean" use="optional" default="false"/>
+                </xs:complexType>
+        </xs:element>
+</xs:schema>
+

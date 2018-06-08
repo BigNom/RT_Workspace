@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bVolumeUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_TubeBundleTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="NumberOfRows" type="xs:integer" use="optional"/>
+			<xs:attribute name="StaggeredRowSpacing" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="InLineRowSpacing" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NumberOfCircuits" type="xs:integer" use="optional"/>
+			<xs:attribute name="FoulingFactor" type="xs:decimal" use="optional"/>
+			<xs:attribute name="ThermalConductivity" type="xs:decimal" use="optional"/>
+			<xs:attribute name="Length" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="Volume" type="bVolumeUnitsType" use="optional"/>
+			<xs:attribute name="NominalDiameter" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="OutsideDiameter" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="InsideDiameter" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="HorizontalSpacing" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="VerticalSpacing" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="Material" type="xs:string" use="optional"/>
+			<xs:attribute name="HasTurbulator" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_StairCommon">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional"/>
+			<xs:attribute name="NumberOfRiser" type="xs:integer" use="optional"/>
+			<xs:attribute name="NumberOfTreads" type="xs:integer" use="optional"/>
+			<xs:attribute name="RiserHeight" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="TreadLength" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="RequiredHeadroom" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="HandicapAccessible" type="xs:boolean" use="optional"/>
+			<xs:attribute name="IsExternal" type="xs:boolean" use="optional"/>
+			<xs:attribute name="FireRating" type="xs:string" use="optional"/>
+			<xs:attribute name="FireExit" type="xs:boolean" use="optional"/>
+			<xs:attribute name="HasNonSkidSurface" type="xs:boolean" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

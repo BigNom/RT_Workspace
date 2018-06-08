@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_CoveringCommon">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="FireRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="AcousticRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="FlammabilityRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="FragilityRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="SurfaceSpreadOfFlame" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="Material" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="Combustible" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="TotalThickness" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="Finish" type="xs:string" use="optional" default=""/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

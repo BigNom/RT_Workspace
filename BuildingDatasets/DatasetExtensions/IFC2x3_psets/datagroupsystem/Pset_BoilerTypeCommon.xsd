@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bVolumeUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_BoilerTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="PressureRating" type="xs:decimal" use="optional"/>
+			<xs:attribute name="OperatingMode" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="Material" type="xs:string" use="optional"/>
+			<xs:attribute name="HeatTransferSurfaceArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="NominalPartLoadRatio" type="xs:decimal" use="optional"/>
+			<xs:attribute name="WaterInletTemperatureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="WaterStorageCapacity" type="bVolumeUnitsType" use="optional"/>
+			<xs:attribute name="IsWaterStorageHeater" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="Weight" type="xs:decimal" use="optional"/>
+			<xs:attribute name="PartialLoadEfficiencyCurves" type="xs:decimal" use="optional"/>
+			<xs:attribute name="NominalEfficiency" type="xs:decimal" use="optional"/>
+			<xs:attribute name="HeatOutput" type="xs:decimal" use="optional"/>
+			<xs:attribute name="OutletTemperatureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="NominalEnergyConsumption" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

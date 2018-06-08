@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_OutsideDesignCriteria">
+		<xs:complexType>
+			<xs:attribute name="HeatingDryBulb" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="HeatingWetBulb" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="HeatingDesignDay" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="CoolingDryBulb" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="CoolingWetBulb" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="CoolingDesignDay" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="WeatherDataStation" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="WeatherDataDate" type="xs:date" use="optional" default="2008-01-01"/>
+			<xs:attribute name="BuildingThermalExposure" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="PrevailingWindDirection" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="PrevailingWindVelocity" type="xs:decimal" use="optional" default="0"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

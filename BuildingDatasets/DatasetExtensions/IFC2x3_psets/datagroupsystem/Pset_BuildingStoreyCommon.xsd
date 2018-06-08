@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_BuildingStoreyCommon">
+		<xs:complexType>
+			<xs:attribute name="EntranceLevel" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="AboveGround" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="SprinklerProtection" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="SprinklerProtectionAutomatic" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="GrossAreaPlanned" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="NetAreaPlanned" type="bAreaUnitsType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

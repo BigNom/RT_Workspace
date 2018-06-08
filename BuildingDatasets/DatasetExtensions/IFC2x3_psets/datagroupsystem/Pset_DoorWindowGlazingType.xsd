@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:element name="Pset_DoorWindowGlazingType">
+                <xs:complexType>
+                        <xs:attribute name="GlassLayers" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="GlassThickness1" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="GlassThickness2" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="GlassThickness3" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="FillGas" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="GlassColor" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="IsTempered" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="IsLaminated" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="IsCoated" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="IsWired" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="Translucency" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="Reflectivity" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="BeamRadiationTransmittance" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="SolarHeatGainTransmittance" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="ThermalTransmittanceSummer" type="xs:decimal" use="optional" default="0"/>
+                        <xs:attribute name="ThermalTransmittanceWinter" type="xs:decimal" use="optional" default="0"/>
+                </xs:complexType>
+        </xs:element>
+</xs:schema>
+

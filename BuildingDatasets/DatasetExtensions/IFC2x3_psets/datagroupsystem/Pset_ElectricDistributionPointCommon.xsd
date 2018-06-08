@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_ElectricDistributionPointCommon">
+		<xs:complexType>
+			<xs:attribute name="IsMain" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="NumberOfDoors" type="xs:integer" use="optional"/>
+			<xs:attribute name="CaseMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="CaseWeight" type="xs:decimal" use="optional"/>
+			<xs:attribute name="NumberOfOpenings" type="xs:integer" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

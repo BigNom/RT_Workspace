@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_SanitaryTerminalTypeWCSeat">
+		<xs:complexType>
+			<xs:attribute name="SeatType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="SeatHasCover" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="SeatMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="SeatColor" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

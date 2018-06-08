@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ReinforcementBarPitchOfColumn">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="Description" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="HoopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="ReinforcementBarType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="XDirectionTieHoopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="XDirectionTieHoopCount" type="xs:integer" use="optional" default="0"/>
+			<xs:attribute name="YDirectionTieHoopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="YDirectionTieHoopCount" type="xs:integer" use="optional" default="0"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

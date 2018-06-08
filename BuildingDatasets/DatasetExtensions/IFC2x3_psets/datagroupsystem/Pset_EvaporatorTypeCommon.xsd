@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bVolumeUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_EvaporatorTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="EvaporatorMediumType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="EvaporatorCoolant" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="RefrigerantClass" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="RefrigerantType" type="xs:string" use="optional"/>
+			<xs:attribute name="ExternalSurfaceArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="InternalSurfaceArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="InternalRefrigerantVolume" type="bVolumeUnitsType" use="optional"/>
+			<xs:attribute name="InternalWaterVolume" type="bVolumeUnitsType" use="optional"/>
+			<xs:attribute name="NominalHeatTransferArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="NominalHeatTransferCoefficient" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

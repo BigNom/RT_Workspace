@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ManufacturerTypeInformation">
+		<xs:complexType>
+			<xs:attribute name="ArticleNumber" type="xs:string" use="optional"/>
+			<xs:attribute name="ModelReference" type="xs:string" use="optional"/>
+			<xs:attribute name="ModelLabel" type="xs:string" use="optional"/>
+			<xs:attribute name="Manufacturer" type="xs:string" use="optional"/>
+			<xs:attribute name="ProductionYear" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

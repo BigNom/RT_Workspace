@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_LightFixtureTypeExitSign">
+		<xs:complexType>
+			<xs:attribute name="MinimumTextHeight" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="SelfTestFunction" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="BackupSupplySystem" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="PictogramEscapeDirection" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="Addressablility" type="bEnumLookupType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="COBie_Spare">
+		<xs:complexType>
+			<xs:attribute name="Suppliers" type="xs:string" use="optional" default="n/a"/>
+			<xs:attribute name="SetNumber" type="xs:string" use="optional" default="n/a"/>
+			<xs:attribute name="PartNumber" type="xs:string" use="optional" default="n/a"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

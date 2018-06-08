@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_DuctSilencerTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="Shape" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="HydraulicDiameter" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="Length" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="Weight" type="xs:decimal" use="optional"/>
+			<xs:attribute name="AirFlowrateRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="WorkingPressureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="TemperatureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="HasExteriorInsulation" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

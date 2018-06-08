@@ -1,9 +1,0 @@
-%SECTION,Levels,
-
-Name,Number,Description,OverrideColor,OverrideStyle,OverrideWeight,OverrideMaterial,ByLevelColor,ByLevelStyle,ByLevelWeight,ByLevelMaterial,DisplayPriority,Transparency,GlobalDisplay,GlobalFreeze,ElementAccess,Plot,OverrideStyleScale,OverrideStyleOriginWidth,OverrideStyleEndWidth,ByLevelStyleScale,ByLevelStyleOriginWidth,ByLevelStyleEndWidth,
-G_Welds,122,Weld Symbols,,,,NULL,9,0,1,NULL,0,0.000000,1,0,0,1,,,,,,,
-Default,0,,0,0,0,NULL,0,0,0,NULL,0,0.000000,1,0,0,1,,,,,,,
-
-%SECTION,level-filter,
-
-filter-name,filter-parent,level-group,filter-compose,level-name,level-code,level-description,level-color,level-style,level-weight,level-material,level-element-color,level-element-style,level-element-weight,level-element-material,level-display,level-frozen,level-priority,level-plot,level-used,level-transparency,level-element-access,

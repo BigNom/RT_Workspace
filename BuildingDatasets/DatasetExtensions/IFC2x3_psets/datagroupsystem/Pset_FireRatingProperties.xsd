@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:element name="Pset_FireRatingProperties">
+                <xs:complexType>
+                        <xs:attribute name="FireResistanceRating" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="SurfaceSpreadOfFlame" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="IsCombustible" type="xs:boolean" use="optional" default="false"/>
+                </xs:complexType>
+        </xs:element>
+</xs:schema>
+

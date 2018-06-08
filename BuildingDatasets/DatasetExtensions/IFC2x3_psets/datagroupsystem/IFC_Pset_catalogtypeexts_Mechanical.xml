@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+    <Version    major="1"    minor="0"/>
+    <CatalogTypeExtensions>
+        <CatalogTypeExtension    type="GrilleRoundEnd4Way">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundEndBars">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundEndBarSlots">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundEndMesh">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundEndRectSlots">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundEndRndSlots">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundEndStar">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundSide4Way">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundSideBars">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundSideBarSlots">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundSideMesh">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundSideRectSlots">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundSideRndSlots">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="GrilleRoundSideStar">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalMeshEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="Rect4WayEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="Rect4WayGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectBarsEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectBarSlotsEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="Condenser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_CondenserTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectBarsGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectBarSlotsGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectMeshEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectMeshGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectNestedTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRectSlotsEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRectSlotsGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRndSlotsEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRndSlotsGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectStarEndGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectStarGrille">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectVAVSingleInlet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU3">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU4">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU5">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU6">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU7">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCustomAHU8">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU3">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU4">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU5">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU6">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU7">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCustomAHU8">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU11">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU12">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU21">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU22">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU31">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU13">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU14">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU23">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU32">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU41">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU15">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU24">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU33">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU42">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU51">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU16">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU25">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU34">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU43">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU52">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU61">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU17">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU26">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU35">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU44">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU53">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU62">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundCustomAHU71">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundInlineDampersFlat">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundFPUSingleInlet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundVAVDualInlet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundVAVSingleInlet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RndWallDiffuserRnd">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqCeilingDiffuser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LinearSlotDiffuser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqCeilingDiffuserOval">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqCeilingDiffuserRect">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqFloorDiffuser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqFloorDiffuserOval">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqFloorDiffuserRect">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqWallDiffuser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqWallDiffuserOval">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SqWallDiffuserRect">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="JetNozzleDiffuserFlat">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="JetNozzleDiffuserCircular">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_ChilledBeams">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_CooledBeamTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="SplitUnit">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMV_CCUnit">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMV_CTHWConnection">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>    
+        <CatalogTypeExtension    type="BMV_CFCU">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>    
+        <CatalogTypeExtension    type="BMV_FCU">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_OvalAccessDoor">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RectangularFlatAccessDoor">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RectangularStdAccessDoor">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RectOvalAccessDoor">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RoundAccessDoor">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RoundOvalAccessDoor">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RoundRectangularAccessDoor">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ConicalTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="CrossOver">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="CrossOverCloseRough">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="FlatOvalDuct">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSegmentTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="FlexDuct">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSegmentTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalAdapter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalAirCooler">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_EvaporativeCoolerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalAirHeater">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalAirHumidifier">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalAirMoistureEliminator">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalCap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalCoupling">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalElbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalFans1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalFans2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalFlatFilter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalFlexConnection">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalInlineDampersFlat">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalOvalTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalRectTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalReducerCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalRoundTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalSilencer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSilencerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalTransition">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalOffset">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>		
+        <CatalogTypeExtension    type="OvalTrouser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalWye">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvalZigZagFilter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvlRectTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvlRndTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvlRndTransition">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="OvlTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectAdapter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectAirMoistureEliminator">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularAirCooler">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_EvaporativeCoolerTypeCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularAirHeater">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularAirHumidifier">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularCap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularDamper">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularDuct">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSegmentTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularElbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularFans1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularFans2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularFireDamper1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularFireDamper2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularFlatFilter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularSilencer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSilencerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularTakeoffRadius">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SquareThroatTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularTransition">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularWye">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectangularZigZagFilter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectBreech">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectCoupling">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectDamperConnOvl">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectDamperConnRnd">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectFlexConnection">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectGooseneck">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectInlineDampersFlat">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectOgee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectOvalTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectOvalTransition">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectOvlTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRectTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRndTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRndTransition">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RectRoundTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RndAirMoistureEliminator">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RndCeilingDiffuserRnd">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RndFloorDiffuserRnd">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RndOvlTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RndRectTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RndTakeoff">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoofCurb">
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundAdapter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundAirCooler">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_EvaporativeCoolerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundAirHeater">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundAirHumidifier">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundBreech">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCoupling">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundDamper">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundDuct">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSegmentTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundElbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundElbowMitre">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundFans1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundFans2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundFireDamper1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundFireDamper2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundFlatFilter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundFlexConnection">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundInlineDampersFlat">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundOvalTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundRectTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundReducerCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundRoundTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundSilencer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSilencerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundThreeWay">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundTransition">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundOffset">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>		
+        <CatalogTypeExtension    type="RoundTrouser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundWye">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoundZigZagFilter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SaddleCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SaddleTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SaddleTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SegmentedBend">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SegmentedBend2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SideBranch">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ThreeWayTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="Trouser">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="CentrifugalInlineFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="InlineAxialFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="MarkTenRoofFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SingleSpeedFans">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="TerminatorRoofFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RadialCentrifugalSmokeExtractFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ExhaustFan1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ExhaustFan2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="JetFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SplitterDamper">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BranchTypeSplitterDamper">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DamperTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="RectangularCrosstalkSilencer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctSilencerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ElectricBoiler">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="Boiler">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMPCoolingTower">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_CoolingTowerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="PlateHeatExchanger">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_HeatExchangerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BifurcatedFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RoofUpblastFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="CentrifugalUpblastExhaustVentilator">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="CentrifugalUtilityFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FanTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ElectricBaseBoard">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ConvectorSillSingle">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ConvectorSillTwin">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ConvectorTrenchSingle">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ConvectorTrenchTwin">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="PlenumBoxRect">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="PlenumBoxRectMultiPort">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="PlenumBoxRound">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="PlenumBoxRoundMultiPort">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="PlenumBoxOval">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="PlenumBoxOvalMultiPort">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_AirTerminalTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_Modular">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RadiatorLST">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_RadiatorPanel">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMV_Radiator">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ConvectorFan">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="ConvectorNatural">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="UnitHeater">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_SpaceHeaterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RadiusThroatCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="SquareThroatCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DuctFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+    </CatalogTypeExtensions>
+</DataGroupSystem>
+
+

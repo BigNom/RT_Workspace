@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_LampTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="ContributedLuminousFlux" type="xs:decimal" use="optional"/>
+			<xs:attribute name="LightEmitterNominalPower" type="xs:integer" use="optional"/>
+			<xs:attribute name="LampMaintenanceFactor" type="xs:decimal" use="optional"/>
+			<xs:attribute name="LampBallastType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="LampCompensationType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="ColorAppearance" type="xs:string" use="optional"/>
+			<xs:attribute name="Spectrum" type="xs:string" use="optional"/>
+			<xs:attribute name="ColorTemperature" type="xs:decimal" use="optional"/>
+			<xs:attribute name="ColorRenderingIndex" type="xs:integer" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

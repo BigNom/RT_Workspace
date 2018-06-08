@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_DoorCommon">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="FireRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="AcousticRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="SecurityRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="IsExternal" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="Infiltration" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="ThermalTransmittance" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="GlazingAreaFraction" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="HandicapAccessible" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="FireExit" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="SelfClosing" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="SmokeStop" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

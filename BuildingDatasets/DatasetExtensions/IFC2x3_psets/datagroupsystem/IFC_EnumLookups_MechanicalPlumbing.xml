@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<EnumLookups>
+		<EnumLookup definition="Pset_CondenserTypeCommon" property="Pset_CondenserTypeCommon/@RefrigerantClass" extendable="false">
+			<Enum value="CFC"/>
+			<Enum value="HCFC"/>
+			<Enum value="HFC"/>
+			<Enum value="HYDORCARBONS"/>
+			<Enum value="AMMONIA"/>
+			<Enum value="CO2"/>
+			<Enum value="H2O"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CooledBeamTypeCommon" property="Pset_CooledBeamTypeCommon/@WaterFlowControlSystemType" extendable="false">
+			<Enum value="NONE"/>
+			<Enum value="ONOFFVALVE"/>
+			<Enum value="2WAYVALVE"/>
+			<Enum value="3WAYVALVE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CoolingTowerTypeCommon" property="Pset_CoolingTowerTypeCommon/@CircuitType" extendable="false">
+			<Enum value="OPENCIRCUIT"/>
+			<Enum value="CLOSEDCIRCUITWET"/>
+			<Enum value="CLOSEDCIRCUITDRY"/>
+			<Enum value="CLOSEDCIRCUITDRYWET"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CoolingTowerTypeCommon" property="Pset_CoolingTowerTypeCommon/@FlowArrangement" extendable="false">
+			<Enum value="COUNTERFLOW"/>
+			<Enum value="CROSSFLOW"/>
+			<Enum value="PARALLELFLOW"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOW"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CoolingTowerTypeCommon" property="Pset_CoolingTowerTypeCommon/@SprayType" extendable="false">
+			<Enum value="SPRAYFILLED"/>
+			<Enum value="SPLASHTYPEFILL"/>
+			<Enum value="FILMTYPEFILL"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CoolingTowerTypeCommon" property="Pset_CoolingTowerTypeCommon/@CapacityControl" extendable="false">
+			<Enum value="FANCYCLING"/>
+			<Enum value="TWOSPEEDFAN"/>
+			<Enum value="VARIABLESPEEDFAN"/>
+			<Enum value="DAMPERSCONTROL"/>
+			<Enum value="BYPASSVALVECONTROL"/>
+			<Enum value="MULTIPLESERIESPUMPS"/>
+			<Enum value="TWOSPEEDPUMP"/>
+			<Enum value="VARIALBESPEEDPUMP"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CoolingTowerTypeCommon" property="Pset_CoolingTowerTypeCommon/@ControlStrategy" extendable="false">
+			<Enum value="FIXEDEXITINGWATERTEMP"/>
+			<Enum value="WETBULBTEMPRESET"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DamperTypeCommon" property="Pset_DamperTypeCommon/@Operation" extendable="false">
+			<Enum value="AUTOMATIC"/>
+			<Enum value="MANUAL"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DamperTypeCommon" property="Pset_DamperTypeCommon/@Orientation" extendable="false">
+			<Enum value="VERTICAL"/>
+			<Enum value="HORIZONTAL"/>
+			<Enum value="VERTICALHORIZONTAL"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOW"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DamperTypeCommon" property="Pset_DamperTypeCommon/@BladeAction" extendable="false">
+			<Enum value="FOLDINGCURTAIN"/>
+			<Enum value="PARALLEL"/>
+			<Enum value="OPPOSED"/>
+			<Enum value="SINGLE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DamperTypeCommon" property="Pset_DamperTypeCommon/@BladeShape" extendable="false">
+			<Enum value="FLAT"/>
+			<Enum value="FABRICATEDAIRFOIL"/>
+			<Enum value="EXTRUDEDAIRFOIL"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DamperTypeCommon" property="Pset_DamperTypeCommon/@BladeEdge" extendable="false">
+			<Enum value="CRIMPED"/>
+			<Enum value="UNCRIMPED"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DuctSilencerTypeCommon" property="Pset_DuctSilencerTypeCommon/@Shape" extendable="false">
+			<Enum value="FLATOVAL"/>
+			<Enum value="RECTANGULAR"/>
+			<Enum value="ROUND"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_EvaporativeCoolerTypeCommon" property="Pset_EvaporativeCoolerTypeCommon/@FlowArrangement" extendable="false">
+			<Enum value="COUNTERFLOW"/>
+			<Enum value="CROSSFLOW"/>
+			<Enum value="PARALLELFLOW"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_FanTypeCommon" property="Pset_FanTypeCommon/@MotorDriveType" extendable="false">
+			<Enum value="DIRECTDRIVE"/>
+			<Enum value="BELTDRIVE"/>
+			<Enum value="COUPLING"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_FanTypeCommon" property="Pset_FanTypeCommon/@CapacityControlType" extendable="false">
+			<Enum value="INLETVANE"/>
+			<Enum value="VARIABLESPEEDDRIVE"/>
+			<Enum value="BLADPITCHANGE"/>
+			<Enum value="TWOSPEED"/>
+			<Enum value="DISCHARGEDAMPER"/>
+			<Enum value="OTHER"/>
+			<Enum value="UNKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_FlowMeterTypeCommon" property="Pset_FlowMeterTypeCommon/@ReadOutType" extendable="false">
+			<Enum value="DIAL"/>
+			<Enum value="DIGITAL"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_HeatExchangerTypeCommon" property="Pset_HeatExchangerTypeCommon/@Arrangement" extendable="false">
+			<Enum value="COUNTERFLOW"/>
+			<Enum value="CROSSFLOW"/>
+			<Enum value="PARALLELFLOW"/>
+			<Enum value="MULTIPASS"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_PipeFittingTypeCommon" property="Pset_PipeFittingTypeCommon/@EndStyleTreatment" extendable="false">
+			<Enum value="FLANGED"/>
+			<Enum value="GROOVED"/>
+			<Enum value="THREADED"/>
+			<Enum value="NONE"/>
+			<Enum value="NOTDEFINED"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_PipeSegmentTypeCommon" property="Pset_PipeSegmentTypeCommon/@EndStyleTreatment" extendable="false">
+			<Enum value="FLANGED"/>
+			<Enum value="GROOVED"/>
+			<Enum value="THREADED"/>
+			<Enum value="NONE"/>
+			<Enum value="NOTDEFINED"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SpaceHeaterTypeCommon" property="Pset_SpaceHeaterTypeCommon/@TemperatureClassification" extendable="false">
+			<Enum value="LOWTEMPERATURE"/>
+			<Enum value="HIGHTEMPERATURE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SpaceHeaterTypeCommon" property="Pset_SpaceHeaterTypeCommon/@HeatingSource" extendable="false">
+			<Enum value="FUEL"/>
+			<Enum value="GAS"/>
+			<Enum value="ELECTRICITY"/>
+			<Enum value="HOTWATER"/>
+			<Enum value="STEAM"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_TankTypeCommon" property="Pset_TankTypeCommon/@Type" extendable="false">
+			<Enum value="BREAKPRESSSURE"/>
+			<Enum value="EXPANSION"/>
+			<Enum value="FEEDANDEXPANSION"/>
+			<Enum value="GASSTORAGEBUTANE"/>
+			<Enum value="GASSTORAGELIQUIFIEDPETROLEUMGAS"/>
+			<Enum value="GASSTORAGEPROPANE"/>
+			<Enum value="OILSERVICE"/>
+			<Enum value="OILSTORAGE"/>
+			<Enum value="PRESSUREVESSEL"/>
+			<Enum value="WATERSTORAGEGENERAL"/>
+			<Enum value="WATERSTORAGEPOTABLE"/>
+			<Enum value="WATERSTORAGEPROCESS"/>
+			<Enum value="WATERSTORAGECOOLINGTOWERMAKEUP"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="U NSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_TankTypeCommon" property="Pset_TankTypeCommon/@AccessType" extendable="true">
+			<Enum value="NONE"/>
+			<Enum value="LOOSECOVER"/>
+			<Enum value="MANHOLE"/>
+			<Enum value="SECUREDCOVER"/>
+			<Enum value="SECUREDCOVERWITHMANHOLE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_ValveTypeCommon" property="Pset_ValveTypeCommon/@ValvePattern" extendable="false">
+			<Enum value="SINGLEPORT"/>
+			<Enum value="ANGLED_2_PORT"/>
+			<Enum value="STRAIGHT_2_PORT"/>
+			<Enum value="STRAIGHT_3_PORT"/>
+			<Enum value="CROSSOVER_4_PORT"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_ValveTypeCommon" property="Pset_ValveTypeCommon/@ValveOperation" extendable="true">
+			<Enum value="DROPWEIGHT"/>
+			<Enum value="FLOAT"/>
+			<Enum value="HYDRAULIC"/>
+			<Enum value="LEVER"/>
+			<Enum value="LOCKSHIELD"/>
+			<Enum value="MOTORIZED"/>
+			<Enum value="PNEUMATIC"/>
+			<Enum value="SOLENOID"/>
+			<Enum value="SPRING"/>
+			<Enum value="THERMOSTATIC"/>
+			<Enum value="WHEEL"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_ValveTypeCommon" property="Pset_ValveTypeCommon/@ValveMechanism" extendable="true">
+			<Enum value="BALL"/>
+			<Enum value="BUTTERFLY"/>
+			<Enum value="CONFIGUREDGATE"/>
+			<Enum value="GLAND"/>
+			<Enum value="GLOBE"/>
+			<Enum value="LUBRICATEDPLUG"/>
+			<Enum value="NEEDLE"/>
+			<Enum value="PARALLELSLIDE"/>
+			<Enum value="PLUG"/>
+			<Enum value="WEDGEGATE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalTypeCommon" property="Pset_AirTerminalTypeCommon/@Shape" extendable="false">
+			<Enum value="ROUND"/>
+			<Enum value="RECTANGULAR"/>
+			<Enum value="SQUARE"/>
+			<Enum value="SLOT"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalTypeCommon" property="Pset_AirTerminalTypeCommon/@FlowPattern" extendable="false">
+			<Enum value="LINEARSINGLE"/>
+			<Enum value="LINEARDOUBLE"/>
+			<Enum value="LINEARFOURWAY"/>
+			<Enum value="RADIAL"/>
+			<Enum value="SWIRL"/>
+			<Enum value="DISPLACEMENT"/>
+			<Enum value="COMPACTJET"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalTypeCommon" property="Pset_AirTerminalTypeCommon/@DischargeDirection" extendable="false">
+			<Enum value="PARALLEL"/>
+			<Enum value="PERPENDICULAR"/>
+			<Enum value="ADJUSTABLE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalTypeCommon" property="Pset_AirTerminalTypeCommon/@FinishType" extendable="false">
+			<Enum value="ANNODIZED"/>
+			<Enum value="PAINTED"/>
+			<Enum value="NONE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalTypeCommon" property="Pset_AirTerminalTypeCommon/@MountingType" extendable="false">
+			<Enum value="SURFACE"/>
+			<Enum value="FLATFLUSH"/>
+			<Enum value="LAYIN"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalTypeCommon" property="Pset_AirTerminalTypeCommon/@CoreType" extendable="false">
+			<Enum value="SHUTTERBLADE"/>
+			<Enum value="CURVEDBLADE"/>
+			<Enum value="REMOVABLE"/>
+			<Enum value="REVERSIBLE"/>
+			<Enum value="NONE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalTypeCommon" property="Pset_AirTerminalTypeCommon/@FlowControlType" extendable="false">
+			<Enum value="DAMPER"/>
+			<Enum value="BELLOWS"/>
+			<Enum value="NONE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DuctFittingTypeCommon" property="Pset_DuctFittingTypeCommon/@EndStyleTreatment" extendable="false">
+			<Enum value="ANGLE"/>
+			<Enum value="BEADEDSLEEVE"/>
+			<Enum value="BRAZED"/>
+			<Enum value="COMPRESSION"/>
+			<Enum value="CRIMP"/>
+			<Enum value="DRAWBAND"/>
+			<Enum value="DRIVESLILP"/>
+			<Enum value="FLANGED"/>
+			<Enum value="OUTSIDESLEEVE"/>
+			<Enum value="SLIPON"/>
+			<Enum value="SOLDERED"/>
+			<Enum value="SSLIP"/>
+			<Enum value="STANDINGSEAM"/>
+			<Enum value="SWEDGE"/>
+			<Enum value="NONE"/>
+			<Enum value="NOTDEFINED"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DuctSegmentTypeCommon" property="Pset_DuctSegmentTypeCommon/@Shape" extendable="false">
+			<Enum value="FLATOVAL"/>
+			<Enum value="RECTANGULAR"/>
+			<Enum value="ROUND"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_DuctSegmentTypeCommon" property="Pset_DuctSegmentTypeCommon/@EndStyleTreatment" extendable="false">
+			<Enum value="ANGLE"/>
+			<Enum value="BEADEDSLEEVE"/>
+			<Enum value="BRAZED"/>
+			<Enum value="CRIMP"/>
+			<Enum value="DRAWBAND"/>
+			<Enum value="DRIVESLIP"/>
+			<Enum value="FLANGED"/>
+			<Enum value="OUTSIDESLEEVE"/>
+			<Enum value="SLIPON"/>
+			<Enum value="SOLDERED"/>
+			<Enum value="SSLIP"/>
+			<Enum value="STANDINGSEAM"/>
+			<Enum value="SWEDGE"/>
+			<Enum value="WELDED"/>
+			<Enum value="NONE"/>
+			<Enum value="NOTDEFINED"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_BoilerTypeCommon" property="Pset_BoilerTypeCommon/@OperatingMode" extendable="false">
+			<Enum value="FIXED"/>
+			<Enum value="TWOSTEP"/>
+			<Enum value="MODULATING"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalBoxTypeCommon" property="Pset_AirTerminalBoxTypeCommon/@ArrangementType" extendable="false">
+			<Enum value="SINGLEDUCT"/>
+			<Enum value="DUALDUCT"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirTerminalBoxTypeCommon" property="Pset_AirTerminalBoxTypeCommon/@ReheatType" extendable="false">
+			<Enum value="ELECTRICALREHEAT"/>
+			<Enum value="WATERCOILREHEAT"/>
+			<Enum value="STEAMCOILREHEAT"/>
+			<Enum value="GASREHEAT"/>
+			<Enum value="NONE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirToAirHeatRecoveryTypeCommon" property="Pset_AirToAirHeatRecoveryTypeCommon/@HeatTransferTypeEnum" extendable="false">
+			<Enum value="SENSIBLE"/>
+			<Enum value="LATENT"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CompressorTypeCommon" property="Pset_CompressorTypeCommon/@PowerSource" extendable="false">
+			<Enum value="MOTORDRIVEN"/>
+			<Enum value="ENGINEDRIVEN"/>
+			<Enum value="GASTURBINE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_CompressorTypeCommon" property="Pset_CompressorTypeCommon/@RefrigerantClass" extendable="false">
+			<Enum value="CFC"/>
+			<Enum value="HCFC"/>
+			<Enum value="HFC"/>
+			<Enum value="HYDROCARBONS"/>
+			<Enum value="AMMONIA"/>
+			<Enum value="CO2"/>
+			<Enum value="H2O"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_EvaporatorTypeCommon" property="Pset_EvaporatorTypeCommon/@EvaporatorMediumType" extendable="false">
+			<Enum value="COLDLIQUID"/>
+			<Enum value="COLDAIR"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_EvaporatorTypeCommon" property="Pset_EvaporatorTypeCommon/@EvaporatorCoolant" extendable="false">
+			<Enum value="WATER"/>
+			<Enum value="BRINE"/>
+			<Enum value="CLYCOL"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_EvaporatorTypeCommon" property="Pset_EvaporatorTypeCommon/@RefrigerantClass" extendable="false">
+			<Enum value="CFC"/>
+			<Enum value="HCFC"/>
+			<Enum value="HFC"/>
+			<Enum value="HYDROCARBONS"/>
+			<Enum value="AMMONIA"/>
+			<Enum value="CO2"/>
+			<Enum value="H2O"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_HumidifierTypeCommon" property="Pset_HumidifierTypeCommon/@Application" extendable="false">
+			<Enum value="PORTABLE"/>
+			<Enum value="FIXED"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_HumidifierTypeCommon" property="Pset_HumidifierTypeCommon/@InternalControl" extendable="false">
+			<Enum value="ONOFF"/>
+			<Enum value="STEPPED"/>
+			<Enum value="MODULATING"/>
+			<Enum value="NONE"/>
+			<Enum value="OTHER"/>
+			<Enum value="NOTKNOWN"/>
+			<Enum value="UNSET"/>
+		</EnumLookup>
+	</EnumLookups>
+</DataGroupSystem>

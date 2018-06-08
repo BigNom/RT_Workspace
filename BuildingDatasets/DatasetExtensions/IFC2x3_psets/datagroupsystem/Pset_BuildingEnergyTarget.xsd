@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_BuildingEnergyTarget">
+		<xs:complexType>
+			<xs:attribute name="BuildingEnergyTargetUnits" type="xs:string" use="optional"/>
+			<xs:attribute name="BuildingEnergyTargetValue" type="xs:decimal" use="optional" default="0"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

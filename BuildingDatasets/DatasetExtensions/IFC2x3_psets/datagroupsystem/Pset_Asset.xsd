@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_Asset">
+		<xs:complexType>
+			<xs:attribute name="AssetAccountingType" type="bEnumLookupType" use="optional" default="Fixed"/>
+			<xs:attribute name="AssetTaxType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="AssetInsuranceType" type="bEnumLookupType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

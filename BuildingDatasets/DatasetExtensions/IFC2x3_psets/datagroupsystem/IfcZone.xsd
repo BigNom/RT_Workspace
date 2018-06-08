@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="IfcZone">
+		<xs:complexType>
+			<xs:attribute name="IfcZoneName" type="xs:string" use="optional"/>
+			<xs:attribute name="IfcZoneID" type="xs:string" use="optional"/>
+			<xs:attribute name="IfcZoneDescription" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="256"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

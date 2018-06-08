@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bVolumeUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_DamperTypeCommon">
+		<xs:complexType>
+			<xs:sequence/>
+			<xs:attribute name="Operation" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="Orientation" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="BladeMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="BladeThickness" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="SealMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="BladeAction" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="BladeShape" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="BladeEdge" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="NumberofBlades" type="xs:integer" use="optional"/>
+			<xs:attribute name="FaceArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="MaximumAirFlowRate" type="xs:decimal" use="optional"/>
+			<xs:attribute name="TemperatureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="MaximumWorkingPressure" type="xs:decimal" use="optional"/>
+			<xs:attribute name="TemperatureRating" type="xs:decimal" use="optional"/>
+			<xs:attribute name="TorqueRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="NominalAirFlowRate" type="xs:decimal" use="optional"/>
+			<xs:attribute name="OpenPressureDrop" type="xs:decimal" use="optional"/>
+			<xs:attribute name="LeakageFullyClosed" type="bVolumeUnitsType" use="optional"/>
+			<xs:attribute name="LossCoefficentCurve" type="xs:decimal" use="optional"/>
+			<xs:attribute name="LeakageCurve" type="xs:decimal" use="optional"/>
+			<xs:attribute name="RegeneratedSoundCurve" type="xs:string" use="optional"/>
+			<xs:attribute name="FrameType" type="xs:string" use="optional"/>
+			<xs:attribute name="FrameDepth" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="FrameMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="FrameThickness" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="CloseOffRating" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

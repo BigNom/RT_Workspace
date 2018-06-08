@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<CustomCatalogTypes>
+		<CustomCatalogType name="IfcZone"/>
+	</CustomCatalogTypes>
+	<CatalogTypeExtensions>
+		<CatalogTypeExtension type="IfcZone">
+			<InstanceDataDefinition defType="USER" definition="IfcZone"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_ZoneCommon"/>
+			<InstanceDataDefinition defType="USER" definition="ObjectClassification"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceFireSafetyRequirements"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceLightingRequirements"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceOccupancyRequirements"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceThermalRequirements"/> -->
+		</CatalogTypeExtension>
+	</CatalogTypeExtensions> --&gt;
+	<CatalogTypeExtensions>
+		<CatalogTypeExtension type="Aluminum Beam">
+			<InstanceDataDefinition defType="USER" definition="Pset_BeamCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Aluminum Column">
+			<InstanceDataDefinition defType="USER" definition="Pset_ColumnCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Base Plate">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Building">
+			<InstanceDataDefinition defType="USER" definition="Pset_BuildingCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_BuildingUse"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_BuildingEnergyTarget"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_OutsideDesignCriteria"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Casework">
+			<InstanceDataDefinition defType="USER" definition="Pset_FurnitureTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Concrete Beam">
+			<InstanceDataDefinition defType="USER" definition="Pset_BeamCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarPitchOfBeam"/>  -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Concrete Column">
+			<InstanceDataDefinition defType="USER" definition="Pset_ColumnCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarPitchOfColumn"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Concrete Pier">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Concrete Pile">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="CurtainWall">
+			<InstanceDataDefinition defType="USER" definition="Pset_CurtainWallCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_FireratingProperties"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Door">
+			<InstanceDataDefinition defType="USER" definition="Pset_DoorCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_DoorWindowGlazingType"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_DoorWindowShadingType"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_FireratingProperties"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ManufacturerTypeInformation"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Floor">
+			<InstanceDataDefinition defType="USER" definition="Pset_BuildingStoreyCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Furniture">
+			<InstanceDataDefinition defType="USER" definition="Pset_FurnitureTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Mat Foundation">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Penetrations">
+			<InstanceDataDefinition defType="USER" definition="Pset_OpeningElementCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Pile Cap">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Project">
+			<InstanceDataDefinition defType="USER" definition="Pset_ProjectCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Ramps">
+			<InstanceDataDefinition defType="USER" definition="Pset_RampCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Railing">
+			<InstanceDataDefinition defType="USER" definition="Pset_RailingCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Roof">
+			<InstanceDataDefinition defType="USER" definition="Pset_RoofCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Shelving">
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Site">
+			<InstanceDataDefinition defType="USER" definition="Pset_SiteCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="SiteEquipment">
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Slab">
+			<InstanceDataDefinition defType="USER" definition="Pset_SlabCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarPitchOfSlab"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_FireratingProperties"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Space">
+			<InstanceDataDefinition defType="USER" definition="Space_IfcZone"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_SpaceCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceFireSafetyRequirements"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceLightingRequirements"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceOccupancyRequirements"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceThermalRequirements"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceThermalDesign"/> -->
+			<!-- specific property set for only those spaces that are used to define parking spaces by ObjectType = 'Parking' -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceParking"/> -->
+			<!-- specific property set for only those spaces that are used to define parking aisle by ObjectType = 'ParkingAisle' -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_SpaceParkingAisle"/ -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Spread Footing">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarCountOfIndependentFooting"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarPitchOfContinuousFooting"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Stair">
+			<InstanceDataDefinition defType="USER" definition="Pset_StairCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Strip Footing">
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarCountOfIndependentFooting"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarPitchOfContinuousFooting"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Beam">
+			<InstanceDataDefinition defType="USER" definition="Pset_BeamCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Cladding">
+			<InstanceDataDefinition defType="USER" definition="Pset_CoveringCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Column">
+			<InstanceDataDefinition defType="USER" definition="Pset_ColumnCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Deck">
+			<InstanceDataDefinition defType="USER" definition="Pset_SlabCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Horizontal Brace">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Pile">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Purlin">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Steel Vertical Brace">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Strip Footing">
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarCountOfIndependentFooting"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarPitchOfContinuousFooting"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Timber Joist">
+			<InstanceDataDefinition defType="USER" definition="Pset_BeamCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Timber Post">
+			<InstanceDataDefinition defType="USER" definition="Pset_ColumnCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Timber Stud">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Timber Plate">
+			<InstanceDataDefinition defType="USER" definition="Pset_MemberCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Wall">
+			<InstanceDataDefinition defType="USER" definition="Pset_WallCommon"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_FireratingProperties"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ReinforcementBarPitchOfWall"/> -->
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Window">
+			<InstanceDataDefinition defType="USER" definition="Pset_WindowCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_DoorWindowGlazingType"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_DoorWindowShadingType"/>
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_GlazingPropertiesEnergyAnalysis.xsd"/> -->
+			<!-- <InstanceDataDefinition defType="USER" definition="Pset_ManufacturerTypeInformation"/> -->
+		</CatalogTypeExtension>
+	</CatalogTypeExtensions>
+</DataGroupSystem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

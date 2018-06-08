@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<EnumLookups>
+		<EnumLookup definition="Pset_AirHandler" property="Pset_AirHandler/@AirHandlerConstructionEnum" extendable="true">
+			<Enum value="ManufacturedItem"/>
+			<Enum value="ConstructedOnSite"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirHandler" property="Pset_AirHandler/@AirHandlerFanCoilArrangementEnum" extendable="true">
+			<Enum value="BlowThrough"/>
+			<Enum value="DrawThrough"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_AirSideSystemInformation" property="Pset_AirSideSystemInformation/@AirSideSystemDistributionTypeEnum" extendable="true">
+			<Enum value="SingleDuct"/>
+			<Enum value="DualDuct"/>
+			<Enum value="Multizone"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_airsidesysteminformation" property="pset_airsidesysteminformation/@AirSideSystemTypeEnum" extendable="true">
+			<Enum value="ConstantVolume"/>
+			<Enum value="ConstantVolumeSingleZone"/>
+			<Enum value="ConstantVolumeMultipleZoneReheat"/>
+			<Enum value="ConstantVolumeBypass"/>
+			<Enum value="VariableAirVolume"/>
+			<Enum value="VariableAirVolumeReheat"/>
+			<Enum value="VariableAirVolumeInduction"/>
+			<Enum value="VariableAirVolumeFanPowered"/>
+			<Enum value="VariableAirVolumeDualConduit"/>
+			<Enum value="VariableAirVolumeVariableDiffusers"/>
+			<Enum value="VariableAirVolumeVariableTemperature"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_analoginput" property="pset_analoginput/@EventEnableEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_analoginput" property="pset_analoginput/@NotifyTypeEnum" extendable="true">
+			<Enum value="Alarm"/>
+			<Enum value="Event"/>
+			<Enum value="AcknowledgeNotification"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_analogoutput" property="pset_analogoutput/@NotifyTypeEnum" extendable="true">
+			<Enum value="Alarm"/>
+			<Enum value="Event"/>
+			<Enum value="AcknowledgeNotification"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_analogoutput" property="pset_analogoutput/@EventEnableEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryinput" property="pset_binaryinput/@AckedTransitionsEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryinput" property="pset_binaryinput/@AlarmValueEnum" extendable="true">
+			<Enum value="Inactive"/>
+			<Enum value="Active"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryinput" property="pset_binaryinput/@EventEnableEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryinput" property="pset_binaryinput/@PolarityEnum" extendable="true">
+			<Enum value="Normal"/>
+			<Enum value="Reverse"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryoutput" property="pset_binaryoutput/@AckedTransitionsEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryoutput" property="pset_binaryoutput/@FeedbackValueEnum" extendable="true">
+			<Enum value="Inactive"/>
+			<Enum value="Active"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryoutput" property="pset_binaryoutput/@EventEnableEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_binaryoutput" property="pset_binaryoutput/@PolarityEnum" extendable="true">
+			<Enum value="Normal"/>
+			<Enum value="Reverse"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_controldamper" property="pset_controldamper/@BladeActionEnum" extendable="true">
+			<Enum value="Parallel"/>
+			<Enum value="Opposed"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_ductsystemdesigncriteria" property="pset_ductsystemdesigncriteria/@DuctSystemTypeEnum" extendable="true">
+			<Enum value="VariableAirVolume"/>
+			<Enum value="ConstantVolume"/>
+			<Enum value="DoubleDuct"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_ductdesigncriteria" property="pset_ductdesigncriteria/@DuctSizingMethodEnum" extendable="true">
+			<Enum value="ConstantFriction"/>
+			<Enum value="ConstantPressure"/>
+			<Enum value="StaticRegain"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_electricactuator" property="pset_electricactuator/@ElectricActuatorType" extendable="true">
+			<Enum value="MotorDrive"/>
+			<Enum value="Magnetic"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_firedamper" property="pset_firedamper/@BladeTypeEnum" extendable="true">
+			<Enum value="ParallelBlade"/>
+			<Enum value="FoldingCurtain"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_firedamper" property="pset_firedamper/@ActuationTypeEnum" extendable="true">
+			<Enum value="Gravity"/>
+			<Enum value="Spring"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_firedamper" property="pset_firedamper/@ClosureRatingEnum" extendable="true">
+			<Enum value="Dynamic"/>
+			<Enum value="Static"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_firedamper" property="pset_firedamper/@MountingPositionEnum" extendable="true">
+			<Enum value="Horizontal"/>
+			<Enum value="Vertical"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_firesmokedamper" property="pset_firesmokedamper/@MountingPositionEnum" extendable="true">
+			<Enum value="Horizontal"/>
+			<Enum value="Vertical"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_hvacsensor" property="pset_hvacsensor/@SensorTypeEnum" extendable="true">
+			<Enum value="Flow"/>
+			<Enum value="Pressure"/>
+			<Enum value="Temperature"/>
+			<Enum value="Gas"/>
+			<Enum value="Concentration"/>
+			<Enum value="Volts"/>
+			<Enum value="Amps"/>
+			<Enum value="Density"/>
+			<Enum value="Viscosity"/>
+			<Enum value="Energy"/>
+			<Enum value="Humidity"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_insulation" property="pset_insulation/@InsulationTypeEnum" extendable="true">
+			<Enum value="InorganicFibrous"/>
+			<Enum value="InorganicCellular"/>
+			<Enum value="OrganicFibrous"/>
+			<Enum value="OrganicCellular"/>
+			<Enum value="Concentration"/>
+			<Enum value="Metallic"/>
+			<Enum value="MetallizedOrganicReflectiveMembranes"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_linearactuator" property="pset_linearactuator/@FailDirectionEnum" extendable="true">
+			<Enum value="FailIn"/>
+			<Enum value="FailOut"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_loaddesigncriteria" property="pset_loaddesigncriteria/@OccupancyTypeEnum" extendable="true">
+			<Enum value="Theater"/>
+			<Enum value="Office"/>
+			<Enum value="Hotel"/>
+			<Enum value="Apartment"/>
+			<Enum value="RetailStore"/>
+			<Enum value="DrugStore"/>
+			<Enum value="Bank"/>
+			<Enum value="Restaurant"/>
+			<Enum value="Factory"/>
+			<Enum value="DanceHall"/>
+			<Enum value="BowlingAlley"/>
+			<Enum value="Gymnasium"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_multistateinput" property="pset_multistateinput/@EventEnableEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_multistateinput" property="pset_multistateinput/@NotifyTypeEnum" extendable="true">
+			<Enum value="Alarm"/>
+			<Enum value="Event"/>
+			<Enum value="AcknowledgeNotification"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_multistateoutput" property="pset_multistateoutput/@EventEnableEnum" extendable="true">
+			<Enum value="To-OffNormal"/>
+			<Enum value="To-Fault"/>
+			<Enum value="To-Normal"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_multistateoutput" property="pset_multistateoutput/@NotifyTypeEnum" extendable="true">
+			<Enum value="Alarm"/>
+			<Enum value="Event"/>
+			<Enum value="AcknowledgeNotification"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_packagedacunit" property="pset_packagedacunit/@HeatingEnergySourceEnum" extendable="true">
+			<Enum value="Electricity"/>
+			<Enum value="NaturalGas"/>
+			<Enum value="Oil"/>
+			<Enum value="LiquifiedPetroleumGas"/>
+			<Enum value="Propane"/>
+			<Enum value="Steam"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_pipefitting" property="pset_pipefitting/@FittingSubTypeEnum" extendable="true">
+			<Enum value="45DegreeElbow"/>
+			<Enum value="90DegreeElbow"/>
+			<Enum value="Cap"/>
+			<Enum value="Cock"/>
+			<Enum value="Crossover"/>
+			<Enum value="DoubleBranchElbow"/>
+			<Enum value="Flange"/>
+			<Enum value="Lateral"/>
+			<Enum value="PipeJoint"/>
+			<Enum value="Plug"/>
+			<Enum value="Reducer"/>
+			<Enum value="ReducingElbow"/>
+			<Enum value="Sleeve"/>
+			<Enum value="StreetElbow"/>
+			<Enum value="Tee"/>
+			<Enum value="Union"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_pipedesigncriteria" property="pset_pipedesigncriteria/@PipeSizingMethodEnum" extendable="true">
+			<Enum value="MaximumVelocity"/>
+			<Enum value="MaximumPressureDrop"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_pipesystemdesigncriteria" property="pset_pipesystemdesigncriteria/@PipeSystemTypeEnum" extendable="true">
+			<Enum value="DomesticHotWater"/>
+			<Enum value="ChilledWater"/>
+			<Enum value="CondenserWater"/>
+			<Enum value="HeatingHotWater"/>
+			<Enum value="Steam"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_rotationalactuator" property="pset_rotationalactuator/@FailDirectionEnum" extendable="true">
+			<Enum value="FailIn"/>
+			<Enum value="FailOut"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_smokedamper" property="pset_smokedamper/@MountingPositionEnum" extendable="true">
+			<Enum value="Horizontal"/>
+			<Enum value="Vertical"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_windowcleaning" property="pset_windowcleaning/@WindowCleaningElementTypeEnum" extendable="true">
+			<Enum value="Apparatus"/>
+			<Enum value="Carriage"/>
+			<Enum value="Rails"/>
+			<Enum value="Rigging"/>
+			<Enum value="Tracks"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="pset_reinforcementbarpitchofwall" property="pset_reinforcementbarpitchofwall/@BarAllocationType" extendable="true">
+			<Enum value="Single"/>
+			<Enum value="Doubel"/>
+			<Enum value="Alternate"/>
+			<Enum value="Other"/>
+			<Enum value="UserDefined"/>
+			<Enum value="NotDefined"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_FlowTerminalAirTerminal" property="Pset_FlowTerminalAirTerminal/@AirflowType" extendable="true">
+			<Enum value="Supplyair"/>
+			<Enum value="Returnair"/>
+			<Enum value="Exhaustair"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_FlowTerminalAirTerminal" property="Pset_FlowTerminalAirTerminal/@Location" extendable="true">
+			<Enum value="Sidewallhigh"/>
+			<Enum value="Sidewalllow"/>
+			<Enum value="Ceilingperimeter"/>
+			<Enum value="Ceilinginterior"/>
+			<Enum value="Floor"/>
+			<Enum value="Sill"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeBath" property="Pset_SanitaryTerminalTypeBath/@BathType" extendable="true">
+			<Enum value="Domestic"/>
+			<Enum value="DomesticCorner"/>
+			<Enum value="Foot"/>
+			<Enum value="Jacuzzi"/>
+			<Enum value="Plunge"/>
+			<Enum value="Sitz"/>
+			<Enum value="Treatment"/>
+			<Enum value="Whirlpool"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeBidet" property="Pset_SanitaryTerminalTypeBidet/@BidetMounting" extendable="true">
+			<Enum value="BackToWall"/>
+			<Enum value="Pedestal"/>
+			<Enum value="CounterTop"/>
+			<Enum value="WallHung"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeCistern" property="Pset_SanitaryTerminalTypeCistern/@CisternHeight" extendable="true">
+			<Enum value="HighLevel"/>
+			<Enum value="LowLevel"/>
+			<Enum value="None"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeCistern" property="Pset_SanitaryTerminalTypeCistern/@FlushType" extendable="true">
+			<Enum value="Level"/>
+			<Enum value="Pull"/>
+			<Enum value="Push"/>
+			<Enum value="Sensor"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeSanitaryFountain" property="Pset_SanitaryTerminalTypeSanitaryFountain/@FountainType" extendable="true">
+			<Enum value="DrinkingWater"/>
+			<Enum value="Eyewash"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeSanitaryFountain" property="Pset_SanitaryTerminalTypeSanitaryFountain/@Mounting" extendable="true">
+			<Enum value="BackToWall"/>
+			<Enum value="Pedestal"/>
+			<Enum value="CounterTop"/>
+			<Enum value="WallHung"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeShower" property="Pset_SanitaryTerminalTypeShower/@ShowerType" extendable="true">
+			<Enum value="Drench"/>
+			<Enum value="Individual"/>
+			<Enum value="Tunnel"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalType" property="Pset_SanitaryTerminalType/@SinkType" extendable="true">
+			<Enum value="Belfast"/>
+			<Enum value="Bucket"/>
+			<Enum value="Cleaners"/>
+			<Enum value="Combination_Left"/>
+			<Enum value="Combination_Right"/>
+			<Enum value="Combination_Double"/>
+			<Enum value="Drip"/>
+			<Enum value="Laboratory"/>
+			<Enum value="London"/>
+			<Enum value="Plaster"/>
+			<Enum value="Pot"/>
+			<Enum value="Rinsing"/>
+			<Enum value="Shelf"/>
+			<Enum value="VegetablePreparation"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalType" property="Pset_SanitaryTerminalType/@SinkMounting" extendable="true">
+			<Enum value="BackToWall"/>
+			<Enum value="Pedestal"/>
+			<Enum value="CounterTop"/>
+			<Enum value="WallHung"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeToiletPan" property="Pset_SanitaryTerminalTypeToiletPan/@ToiletType" extendable="true">
+			<Enum value="BedPanWasher"/>
+			<Enum value="Chemical"/>
+			<Enum value="CloseCoupled"/>
+			<Enum value="LooseCoupled"/>
+			<Enum value="SlopHopper"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeToiletPan" property="Pset_SanitaryTerminalTypeToiletPan/@ToiletPanType" extendable="true">
+			<Enum value="Siphonic"/>
+			<Enum value="Squat"/>
+			<Enum value="WashDown"/>
+			<Enum value="WashOut"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeToiletPan" property="Pset_SanitaryTerminalTypeToiletPan/@PanMounting" extendable="true">
+			<Enum value="BackToWall"/>
+			<Enum value="Pedestal"/>
+			<Enum value="CounterTop"/>
+			<Enum value="WallHung"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeUrinal" property="Pset_SanitaryTerminalTypeUrinal/@UrinalType" extendable="true">
+			<Enum value="Bowl"/>
+			<Enum value="Slab"/>
+			<Enum value="Stall"/>
+			<Enum value="Trough"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeWCSeat" property="Pset_SanitaryTerminalTypeWCSeat/@SeatType" extendable="true">
+			<Enum value="Extension"/>
+			<Enum value="Inset"/>
+			<Enum value="OpenFrontSeat"/>
+			<Enum value="RingSeat"/>
+			<Enum value="SelfRaising"/>
+			<Enum value="None"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeWashHandBasin" property="Pset_SanitaryTerminalTypeWashHandBasin/@WashHandBasinType" extendable="true">
+			<Enum value="DentalCuspidor"/>
+			<Enum value="HandRinse"/>
+			<Enum value="Hospital"/>
+			<Enum value="Tipup"/>
+			<Enum value="Washfountain"/>
+			<Enum value="WashingTrough"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeWashHandBasin" property="Pset_SanitaryTerminalTypeWashHandBasin/@WashHandBasinMounting" extendable="true">
+			<Enum value="BackToWall"/>
+			<Enum value="Pedestal"/>
+			<Enum value="CounterTop"/>
+			<Enum value="WallHung"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SpaceHeaterTypeCommon" property="Pset_SpaceHeaterTypeCommon/@TemperatureClassification" extendable="true">
+			<Enum value="LowTemperature"/>
+			<Enum value="HighTemperature"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SpaceHeaterTypeCommon" property="Pset_SpaceHeaterTypeCommon/@HeatingSource" extendable="true">
+			<Enum value="Fuel"/>
+			<Enum value="Gas"/>
+			<Enum value="Electricity"/>
+			<Enum value="HotWater"/>
+			<Enum value="Steam"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeSink" property="Pset_SanitaryTerminalTypeSink/@SinkType" extendable="true">
+			<Enum value="Belfast"/>
+			<Enum value="Bucket"/>
+			<Enum value="Cleaners"/>
+			<Enum value="Combination_Left"/>
+			<Enum value="Combination_Right"/>
+			<Enum value="Combination_Double"/>
+			<Enum value="Drip"/>
+			<Enum value="Laboratory"/>
+			<Enum value="London"/>
+			<Enum value="Plaster"/>
+			<Enum value="Pot"/>
+			<Enum value="Rinsing"/>
+			<Enum value="Shelf"/>
+			<Enum value="VegetablePreparation"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SanitaryTerminalTypeSink" property="Pset_SanitaryTerminalTypeSink/@SinkMounting" extendable="true">
+			<Enum value="BackToWall"/>
+			<Enum value="Pedestal"/>
+			<Enum value="CounterTop"/>
+			<Enum value="WallHung"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_ElementShading" property="Pset_ElementShading/@ShadingDeviceType" extendable="true">
+			<Enum value="Fixed"/>
+			<Enum value="Movable"/>
+			<Enum value="Exterior"/>
+			<Enum value="Interior"/>
+			<Enum value="Overhang"/>
+			<Enum value="Sidefin"/>
+			<Enum value="Userdefined"/>
+			<Enum value="Notdefined"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_Asset" property="Pset_Asset/@AssetAccountingType" extendable="false">
+			<Enum value="Fixed"/>
+			<Enum value="NonFixed"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_Asset" property="Pset_Asset/@AssetTaxType" extendable="false">
+			<Enum value="Capitalised"/>
+			<Enum value="Expensed"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_Asset" property="Pset_Asset/@AssetInsuranceType" extendable="false">
+			<Enum value="Personal"/>
+			<Enum value="Real"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LightFixtureTypeCommon" property="Pset_LightFixtureTypeCommon/@LightFixtureMountingType" extendable="true">
+			<Enum value="CableSpanned"/>
+			<Enum value="FreeStanding"/>
+			<Enum value="Pole_Side"/>
+			<Enum value="Pole_Top"/>
+			<Enum value="Recessed"/>
+			<Enum value="Surface"/>
+			<Enum value="Suspended"/>
+			<Enum value="TrackMounted"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LightFixtureTypeCommon" property="Pset_LightFixtureTypeCommon/@LightFixturePlacingType" extendable="true">
+			<Enum value="Ceiling"/>
+			<Enum value="Floor"/>
+			<Enum value="Furniture"/>
+			<Enum value="Pole"/>
+			<Enum value="Wall"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_ServiceLife" property="Pset_ServiceLife/@ServiceLifeType" extendable="true">
+			<Enum value="ExpectedServiceLife"/>
+			<Enum value="OptimisticReferenceServiceLife"/>
+			<Enum value="PessimisticReferenceServiceLife"/>
+			<Enum value="ReferenceServiceLife"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_PropertyAgreement" property="Pset_PropertyAgreement/@AgreementType" extendable="true">
+			<Enum value="Assignment"/>
+			<Enum value="Lease"/>
+			<Enum value="Tenant"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="COBie_Asset" property="COBie_Asset/@AssetType" extendable="false">
+			<Enum value="Fixed"/>
+			<Enum value="Moveable"/>
+		</EnumLookup>
+	</EnumLookups>
+</DataGroupSystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_FlowMeterTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="ReadOutType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="RemoteReading" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="IsMain" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

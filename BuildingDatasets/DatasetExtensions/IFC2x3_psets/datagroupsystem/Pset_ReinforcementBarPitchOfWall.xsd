@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ReinforcementBarPitchOfWall">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="Description" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="BarAllocationType" type="bEnumLookupType" use="optional" default="UserDefined"/>
+			<xs:attribute name="HorizontalBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="VerticalBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="SpacingBarPitch" type="bWorkingUnitsType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

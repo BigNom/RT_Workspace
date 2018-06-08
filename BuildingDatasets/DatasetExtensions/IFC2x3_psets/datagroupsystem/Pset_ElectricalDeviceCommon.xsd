@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ElectricalDeviceCommon">
+		<xs:complexType>
+			<xs:attribute name="NominalCurrent" type="xs:string" use="optional"/>
+			<xs:attribute name="UsageCurrent" type="xs:integer" use="optional"/>
+			<xs:attribute name="NominalVoltage" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="ElectricalDeviceNominalPower" type="xs:integer" use="optional"/>
+			<xs:attribute name="NumberOfPoles" type="xs:integer" use="optional"/>
+			<xs:attribute name="HasProtectiveEarth" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="NominalFrequencyRange" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="PhaseAngle" type="xs:decimal" use="optional"/>
+			<xs:attribute name="IP_Code" type="xs:string" use="optional"/>
+			<xs:attribute name="InsulationStandardClass" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="PhaseReference" type="xs:integer" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

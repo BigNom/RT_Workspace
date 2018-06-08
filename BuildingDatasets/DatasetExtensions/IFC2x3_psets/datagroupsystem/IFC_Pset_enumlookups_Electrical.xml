@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<EnumLookups>
+		<EnumLookup definition="Pset_ElectricalDeviceCommon" property="Pset_ElectricalDeviceCommon/@InsulationStandardClass" extendable="true">
+			<Enum value="Class0Appliance"/>
+			<Enum value="Class0IAppliance"/>
+			<Enum value="ClassIAppliance"/>
+			<Enum value="ClassIIAppliance"/>
+			<Enum value="ClassIIIAppliance"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_ElectricMotorTypeCommon" property="Pset_ElectricMotorTypeCommon/@MotorEnclosureType" extendable="true">
+			<Enum value="OpenDripProof"/>
+			<Enum value="TotallyEnclosedAirOver"/>
+			<Enum value="TotallyEnclosedFanCooled"/>
+			<Enum value="TotallyEnclosedNonVentilated"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_ElectricalCircuit" property="Pset_ElectricalCircuit/@LampBallastType" extendable="true">
+			<Enum value="Conventional"/>
+			<Enum value="Electronic"/>
+			<Enum value="LowLoss"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LampTypeCommon" property="Pset_LampTypeCommon/@LampBallastType" extendable="true">
+			<Enum value="Conventional"/>
+			<Enum value="Electronic"/>
+			<Enum value="LowLoss"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnow"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LampTypeCommon" property="Pset_LampTypeCommon/@LampCompensationType" extendable="true">
+			<Enum value="Capacitive"/>
+			<Enum value="Inductive"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LightFixtureTypeExitSign" property="Pset_LightFixtureTypeExitSign/@SelfTestFunction" extendable="true">
+			<Enum value="Central"/>
+			<Enum value="Local"/>
+			<Enum value="None"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnow"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LightFixtureTypeExitSign" property="Pset_LightFixtureTypeExitSign/@BackupSupplySystem" extendable="true">
+			<Enum value="LocalBattery"/>
+			<Enum value="CentralBattery"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LightFixtureTypeExitSign" property="Pset_LightFixtureTypeExitSign/@PictogramEscapeDirection" extendable="true">
+			<Enum value="RightArrow"/>
+			<Enum value="LeftArrow"/>
+			<Enum value="DownArrow"/>
+			<Enum value="UpArrow"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_LightFixtureTypeExitSign" property="Pset_LightFixtureTypeExitSign/@Addressablility" extendable="true">
+			<Enum value="Implemented"/>
+			<Enum value="UpgradeableTo"/>
+			<Enum value="NotImplemented"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_SwitchingDeviceTypeCommon" property="Pset_SwitchingDeviceTypeCommon/@SwitchFunction" extendable="true">
+			<Enum value="OnOffSwitch"/>
+			<Enum value="IntermediateSwitch"/>
+			<Enum value="DoubleThrowSwitch"/>
+			<Enum value="Other"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+		<EnumLookup definition="Pset_TransformerTypeCommon" property="Pset_TransformerTypeCommon/@SecondaryCurrentType" extendable="true">
+			<Enum value="AC"/>
+			<Enum value="DC"/>
+			<Enum value="NotKnown"/>
+			<Enum value="Unset"/>
+		</EnumLookup>
+	</EnumLookups>
+</DataGroupSystem>

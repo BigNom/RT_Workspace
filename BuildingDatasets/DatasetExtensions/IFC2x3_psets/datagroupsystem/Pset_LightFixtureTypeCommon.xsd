@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_LightFixtureTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="NumberOfSources " type="xs:string" use="optional"/>
+			<xs:attribute name="TotalWattage " type="xs:string" use="optional"/>
+			<xs:attribute name="LightFixtureMountingType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="LightFixturePlacingType " type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="MaintenanceFactor " type="xs:string" use="optional"/>
+			<xs:attribute name="ManufacturersSpecificInformation " type="xs:string" use="optional"/>
+			<xs:attribute name="ArticleNumber " type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

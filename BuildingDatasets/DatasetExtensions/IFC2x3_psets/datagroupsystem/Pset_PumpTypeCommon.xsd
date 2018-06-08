@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_PumpTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="FlowRateRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="FlowResistanceRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="ConnectionSize" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="CasingMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="ImpellerMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="ImpellerSealMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="TemperatureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="NetPositiveSuctionHead" type="xs:decimal" use="optional"/>
+			<xs:attribute name="NominalRotationSpeed" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_LightFixtureTypeThermal">
+		<xs:complexType>
+			<xs:attribute name="MaximumPlenumSensibleLoad" type="xs:integer" use="optional"/>
+			<xs:attribute name="MaximumSpaceSensibleLoad" type="xs:integer" use="optional"/>
+			<xs:attribute name="SensibleLoadToRadiant" type="xs:integer" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

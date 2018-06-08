@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<CatalogTypeExtensions>
+		<CatalogTypeExtension type="CableCarrierFitting">
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="CableCarrierSegment">
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="CableSegment">
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricAppliance">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricDistributionPoint">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricDistributionPointCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricFlowStorageDevice">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricGenerator">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricGeneratorTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricHeater">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricMotor">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricMotorTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricTimeControl">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ElectricalCircuit">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalCircuit"/>			
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="JunctionBox">
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Lamp">
+			<InstanceDataDefinition defType="USER" definition="Pset_LampTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="LightFixture">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_LightFixtureTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="MotorConnection">
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Outlet">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_OutletTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="ProtectiveDevice">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_ProtectiveDeviceTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="SwitchingDevice">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_SwitchingDeviceTypeCommon"/>
+		</CatalogTypeExtension>
+		<CatalogTypeExtension type="Transformer">
+			<InstanceDataDefinition defType="USER" definition="Pset_ElectricalDeviceCommon"/>
+			<InstanceDataDefinition defType="USER" definition="Pset_TransformerTypeCommon"/>
+		</CatalogTypeExtension>
+	</CatalogTypeExtensions>
+</DataGroupSystem>
+
+
+
+

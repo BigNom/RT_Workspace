@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_OutletTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="IsPluggableOutlet" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

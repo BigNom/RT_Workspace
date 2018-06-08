@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+    <Version    major="1"    minor="0"/>
+    <CatalogTypeExtensions>
+        <CatalogTypeExtension    type="BMP_AngledElbowRnd">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AngledElbowVerticalRnd">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_BathTub">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_BendWithHeel">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Cap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Cross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_EccTransitionRnd">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Elbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FlangeBlind">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FlangeSlipOn">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FlangeWeldNeck">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FlatCap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FlexBellows">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeSegmentTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FlexPipe">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeSegmentTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FloorTrough">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Gasket">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_H-BranchWye">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_LateralWye">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Ptrap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Ptrap1">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PtrapGully">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpBaseMounted">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpDiaphragm">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpHorizontalSplitCase">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpMotorMounted">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpSump">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpVerticalDualArm">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpVerticalSplitCoupled">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ReducerCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ReturnBend">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_RoundCleanout">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_SanitaryCross">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_SanitaryTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Shower">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Sink">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_SPtrap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_StraightPipe">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeSegmentTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Strainer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Tee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Toilet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Transition">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_TwinSink">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Urinal">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveAngled">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveAngledRelief">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="RadiatorAngledValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveBall">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveButterfly">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveFourWay">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveGate">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveNRV">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValvePilotRelief">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValvePressureRegulating">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveStraight">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveStraightRelief">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveThreeWay">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Vessel">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_TankTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Wye">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FireHoseReelCabinet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_ReelAndExtinguisherCabinet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_YardHydrantCabinet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_FireHoseCabinet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_LandingValveCabinet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_BreechingInletCabinet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_FireExtinguisher">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_FireHydrant">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_SprinklerHead">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_SprinklerHeadSideWall">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_SprinklerHeadUpright">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_BreechingInlet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_LandingValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_PressureGauge">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_Thermometer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_ValveAirVent">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_HoseBibTap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_HoseBibTap2">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_ZoneControlValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_AlarmCheckValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_ChannelGrate">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_ParapetDrain">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_RainWaterOutlet">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_PlanterDrain">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_ExpansionVessel">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_TankTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_WaterHeater">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_Stub">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_RoundCoupling">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>        
+        <CatalogTypeExtension    type="BMP_ValveDiffPressureRegulating">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>    
+        <CatalogTypeExtension    type="BMP_HexagonalBush">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Plug">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_GRPTankPanel">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_TankTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ElbowUnion">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_TwinElbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Backnut">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_MaleFemaleUnion">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_Socket">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_WaterHammer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_UnionSA">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_DieElectricUnion">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AirSeperatorStrainer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AirSeperator">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AirSeperatorMB">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveMotorised_2Way">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveMotorised_3Way">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveMotorised_3Way_withBypass">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValvePressureDifferential">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CompressionReducingSets">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CompressionEqualCouplers">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CompressionReducingCouplers">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_FlareNuts">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_FemaleUnion">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_SingleUnion">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CapNut">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CopperOlives">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CompressionxBspm">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CompressionxBspfm">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_FlareDoubleUnion">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CompressionStopEnds">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_GasMeter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_FlowMeterTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_GasShutOffValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_SpecialCompressionHobFittings">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_EvaporativeChiller">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ChillerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AirCooledChiller">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ChillerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_WaterCooledChiller">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ChillerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_Elbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_CompressionElbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="CompressionElbow">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_BallValves">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_GasDetectorRelay">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_ThreeWayTee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_Tee">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_Adapter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_Bush">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_Solder">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_Nipple">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_Plug">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="LPG_ElbowExtruded">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_StorageTank">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_TankTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpDiesel">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpJockey">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AirSeparator">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AirSeparatorMB">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_AirSeparatorStrainer">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_BalanceValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_DirectFiredGaswaterHeater">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_DosingPot">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_DosingTundish">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PipeFittingTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_RegulatingValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_DrainCock">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FloorDrain4Way">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FloorDrain5Way">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FloorDrain6Way">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_FlowSwitch">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_GreaseTrap">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_HoseUnionDrainCock">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_HoseUnionDrainCockWithPlug">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ParkingDrain">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_PumpDieselHorizontal">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_PumpTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_RectangularCatchBasin">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_RoundCatchBasin">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ShellAndTubeHeatExchanger">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_HeatExchangerTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveDiffPressureTransmitter">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveMotorizedButterfly">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveMotorizedControl">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveNonReturn">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_ValveSwingCheck">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_VibrationPad">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_VibrationIsolatorTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_DoubleRegulatingValve">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_ValveTypeCommon"/>
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+        <CatalogTypeExtension    type="BMP_DirectFiredGaswaterHeater">
+            <InstanceDataDefinition    defType="USER"    definition="Pset_DistributionFlowElementCommon"/>
+        </CatalogTypeExtension>
+    </CatalogTypeExtensions>
+    </DataGroupSystem>

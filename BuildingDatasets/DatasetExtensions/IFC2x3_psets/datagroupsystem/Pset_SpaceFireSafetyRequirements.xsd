@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+        <xs:element name="Pset_SpaceFireSafetyRequirements">
+                <xs:complexType>
+                        <xs:attribute name="MainFireUse" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="AncillaryFireUse" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="FireRiskFactor" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="FireHazardFactor" type="xs:string" use="optional" default=""/>
+                        <xs:attribute name="FlammableStorage" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="FireExit" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="SprinklerProtection" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="SprinklerProtectionAutomatic" type="xs:boolean" use="optional" default="false"/>
+                        <xs:attribute name="AirPressurization" type="xs:boolean" use="optional" default="false"/>
+                </xs:complexType>
+        </xs:element>
+</xs:schema>
+

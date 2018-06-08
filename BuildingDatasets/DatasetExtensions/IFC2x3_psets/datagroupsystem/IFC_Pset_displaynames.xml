@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<DisplayNames>
+		<DisplayName name="IfcZone/@IfcZoneName" displayName="IFC Zone | Name"/>
+		<DisplayName name="IfcZone/@IfcZoneDescription" displayName="IFC Zone | Description"/>
+		<DisplayName name="IfcZone/@IfcZoneID" displayName="IFC Zone | ID"/>
+		<DisplayName name="Space_IfcZone" displayName="IfcZone"/>
+		<DisplayName name="Space_IfcZone/@IfcZoneNames" displayName="IfcZone Names"/>
+		<DisplayName name="IfcSpatial_override/@AssignedSpace" displayName="Assigned Space(s)"/>
+        <!-- to avoid renaming by DisplayNames_***.xml -->
+	        <DisplayName name="COBie_Specification/@Color" displayName="Color" />
+		<DisplayName name="COBie_Specification/@Material" displayName = "Material" />
+		<DisplayName name="Pset_CoveringCommon/@FireRating" displayName = "FireRating" />
+		<DisplayName name="Pset_CoveringCommon/@Thickness" displayName = "Thickness" />
+		<DisplayName name="Pset_CoveringCommon/@Material" displayName = "Material" />
+		<DisplayName name="Pset_DamperTypeCommon/@FrameThickness" displayName = "FrameThickness" />
+		<DisplayName name="Pset_DamperTypeCommon/@FrameDepth" displayName = "FrameDepth" />
+		<DisplayName name="Pset_DamperTypeCommon/@FrameMaterial" displayName = "FrameMaterial" />
+		<DisplayName name="Pset_ManufacturerTypeInformation/@Manufacturer" displayName = "Manufacturer" />
+		<DisplayName name="Pset_DuctSegmentTypeCommon/@Length" displayName = "Length" />
+		<DisplayName name="Pset_DuctSegmentTypeCommon/@Material" displayName = "Material" />
+		<DisplayName name="Pset_PipeSegmentTypeCommon/@Material" displayName = "Material" />
+		<DisplayName name="Pset_RailingCommon/@Height" displayName = "Height" />
+		<DisplayName name="Pset_RailingCommon/@Diameter" displayName = "Diameter" />
+ 	</DisplayNames>
+</DataGroupSystem>

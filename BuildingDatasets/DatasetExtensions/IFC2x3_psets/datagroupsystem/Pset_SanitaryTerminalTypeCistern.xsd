@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bVolumeUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_SanitaryTerminalTypeCistern">
+		<xs:complexType>
+			<xs:attribute name="CisternHeight" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="CisternCapacity" type="bVolumeUnitsType" use="optional"/>
+			<xs:attribute name="IsSingleFlush" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="FlushType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="FlushRate" type="bVolumeUnitsType" use="optional"/>
+			<xs:attribute name="IsAutomaticFlush" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="CisternMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="CisternColor" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

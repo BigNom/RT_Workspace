@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_DuctFittingTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="SubType" type="xs:string" use="optional"/>
+			<xs:attribute name="Material" type="xs:string" use="optional"/>
+			<xs:attribute name="MaterialThickness" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="PressureClass" type="xs:decimal" use="optional"/>
+			<xs:attribute name="UnitWeight" type="xs:decimal" use="optional"/>
+			<xs:attribute name="PressureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="TemperatureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="NominalDiameterOrWidth" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NominalHeight" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="EndStyleTreatment" type="bEnumLookupType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

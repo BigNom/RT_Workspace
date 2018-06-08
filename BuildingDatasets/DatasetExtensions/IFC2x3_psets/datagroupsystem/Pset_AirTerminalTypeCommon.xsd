@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_AirTerminalTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="Shape" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="FlowPattern" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="AirFlowrateRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="TemperatureRange" type="xs:decimal" use="optional"/>
+			<xs:attribute name="DischargeDirection" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="ThrowLength" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="AirDiffusionPerformanceIndex" type="xs:decimal" use="optional"/>
+			<xs:attribute name="Material" type="xs:string" use="optional"/>
+			<xs:attribute name="FinishType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="FinishColor" type="xs:string" use="optional"/>
+			<xs:attribute name="MountingType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="CoreType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="CoreSetHorizontal" type="xs:decimal" use="optional"/>
+			<xs:attribute name="CoreSetVertical" type="xs:decimal" use="optional"/>
+			<xs:attribute name="HasIntegralControl" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="FlowControlType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="HasSoundAttenuator" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="HasThermalInsulation" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="NeckArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="EffectiveArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="Weight" type="xs:decimal" use="optional"/>
+			<xs:attribute name="AirFlowrateVersusFlowControlElement" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

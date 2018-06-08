@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_SlabCommon">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="AcousticRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="FireRating" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="Combustible" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="SurfaceSpreadOfFlame" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="ThermalTransmittance" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="IsExternal" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="LoadBearing" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="Compartmentation" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="PitchAngle" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_SpaceHeaterTypeCommon">
+		<xs:complexType>
+			<xs:sequence/>
+			<xs:attribute name="TemperatureClassification" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="HeatingSource" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="Material" type="xs:string" use="optional"/>
+			<xs:attribute name="BodyMass" type="xs:decimal" use="optional"/>
+			<xs:attribute name="ThermalMassHeatCapacity" type="xs:decimal" use="optional"/>
+			<xs:attribute name="OutputCapacity" type="xs:decimal" use="optional"/>
+			<xs:attribute name="ThermalEfficiency" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

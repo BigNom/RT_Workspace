@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bDateTimeType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_PropertyAgreement">
+		<xs:complexType>
+			<xs:attribute name="AgreementType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="Identifier" type="xs:string" use="optional"/>
+			<xs:attribute name="Version" type="xs:string" use="optional"/>
+			<xs:attribute name="VersionDate" type="bDateTimeType" use="optional" default="01/01/2013"/>
+			<xs:attribute name="PropertyName" type="xs:string" use="optional"/>
+			<xs:attribute name="CommencementDate" type="bDateTimeType" use="optional" default="01/01/2013"/>
+			<xs:attribute name="TerminationDate" type="bDateTimeType" use="optional" default="01/01/2013"/>
+			<xs:attribute name="Duration" type="xs:string" use="optional"/>
+			<xs:attribute name="Options" type="xs:string" use="optional"/>
+			<xs:attribute name="ConditionCommencement" type="xs:string" use="optional"/>
+			<xs:attribute name="Restrictions" type="xs:string" use="optional"/>
+			<xs:attribute name="ConditionTermination" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

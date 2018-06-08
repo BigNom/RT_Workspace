@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_TankTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="Type" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="AccessType" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="NominalLengthOrDiameter" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NominalWidthOrDiameter" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NominalDepth" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NominalCapacity" type="xs:decimal" use="optional"/>
+			<xs:attribute name="EffectiveCapacity" type="xs:decimal" use="optional"/>
+			<xs:attribute name="OperatingWeight" type="xs:decimal" use="optional"/>
+			<xs:attribute name="Material" type="xs:string" use="optional"/>
+			<xs:attribute name="MaterialThickness" type="bWorkingUnitsType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

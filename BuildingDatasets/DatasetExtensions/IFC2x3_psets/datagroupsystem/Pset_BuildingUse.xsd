@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_BuildingUse">
+		<xs:complexType>
+			<xs:attribute name="MarketCategory" type="xs:string" use="optional"/>
+			<xs:attribute name="MarketSubCategory" type="xs:string" use="optional"/>
+			<xs:attribute name="PlanningControlStatus" type="xs:string" use="optional"/>
+			<xs:attribute name="NarrativeText" type="xs:string" use="optional"/>
+			<xs:attribute name="VacancyRateInCategoryNow" type="xs:string" use="optional"/>
+			<xs:attribute name="TenureModesAvailableNow" type="xs:string" use="optional"/>
+			<xs:attribute name="VacancyRateInCategoryFuture" type="xs:string" use="optional"/>
+			<xs:attribute name="TenureModesAvailableFuture" type="xs:string" use="optional"/>
+			<xs:attribute name="MarketSubCategoriesAvailableNow" type="xs:string" use="optional"/>
+			<xs:attribute name="RentalRatesInCategoryFuture" type="xs:string" use="optional"/>
+			<xs:attribute name="RentalRatesInCatergoryNow" type="xs:string" use="optional"/>
+			<xs:attribute name="MarketSubCatergoriesAvailableFuture" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

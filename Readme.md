@@ -30,3 +30,5 @@ _USTN_DISPLAYALLCFGVARS = 0
 %include $(MSDIR)config/msconfig.cfg
 
 ``
+
+####Renamed RioTinto.pcf to RioTinto.ucf and placed it into $(_USTN_SITE)

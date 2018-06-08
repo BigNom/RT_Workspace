@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_FurnitureTypeCommon">
+		<xs:complexType>
+			<xs:sequence/>
+			<xs:attribute name="NominalLength" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NominalDepth" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NominalHeight" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="MainColor" type="xs:string" use="optional"/>
+			<xs:attribute name="Description" type="xs:string" use="optional"/>
+			<xs:attribute name="Style" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

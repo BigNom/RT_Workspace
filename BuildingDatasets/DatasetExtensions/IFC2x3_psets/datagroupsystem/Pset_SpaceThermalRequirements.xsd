@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_SpaceThermalRequirements">
+		<xs:complexType>
+			<xs:attribute name="SpaceTemperatureMax" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceTemperatureMin" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceTemperatureSummerMax" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceTemperatureSummerMin" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceTemperatureWinterMax" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceTemperatureWinterMin" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceHumidity" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceHumiditySummer" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="SpaceHumidityWinter" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="DiscontinuedHeating" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="NaturalVentilation" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="NaturalVentilationRate" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="MechanicalVentilationRate" type="xs:decimal" use="optional" default="0"/>
+			<xs:attribute name="AirConditioning" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="AirConditioningCentral" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

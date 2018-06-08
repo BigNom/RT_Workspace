@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_StairFlightCommon">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="NumberOfRiser" type="xs:integer" use="optional" default="0"/>
+			<xs:attribute name="NumberOfTreads" type="xs:integer" use="optional" default="0"/>
+			<xs:attribute name="RiserHeight" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="TreadLength" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="NosingLength" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="WalkingLineOffset" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="TreadLengthAtOffset" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="TreadLengthAtInnerSide" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="Headroom" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="WaistThickness" type="bWorkingUnitsType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

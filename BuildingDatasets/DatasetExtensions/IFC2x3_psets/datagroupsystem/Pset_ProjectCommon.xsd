@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ProjectCommon">
+		<xs:complexType>
+			<xs:attribute name="ConstructionMode" type="xs:string" use="optional"/>
+			<xs:attribute name="BuildingPermitId" type="xs:string" use="optional"/>
+			<xs:attribute name="GrossAreaPlanned" type="bAreaUnitsType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

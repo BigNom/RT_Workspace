@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bDateTimeType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ManufacturerOccurrence">
+		<xs:complexType>
+			<xs:attribute name="AcquisitionDate" type="bDateTimeType" use="required"/>
+			<xs:attribute name="BarCode" type="xs:string" use="optional"/>
+			<xs:attribute name="SerialNumber" type="xs:string" use="optional"/>
+			<xs:attribute name="BatchReference" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

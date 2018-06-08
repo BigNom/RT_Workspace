@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_GlazingPropertiesEnergyAnalysis">
+		<xs:complexType>
+			<xs:attribute name="Windows6GlazingSystemName" type="xs:string" use="optional"/>
+			<xs:attribute name="ExteriorSurfaceColorofGlass" type="xs:string" use="optional"/>
+			<xs:attribute name="InteriorSurfaceColorofGlass" type="xs:string" use="optional"/>
+			<xs:attribute name="Transmittance-Visible" type="xs:decimal" use="optional"/>
+			<xs:attribute name="Transmittance-Solar" type="xs:decimal" use="optional"/>
+			<xs:attribute name="CompositeThermalTransmittance-Glazing" type="xs:decimal" use="optional"/>
+			<xs:attribute name="ShadingCoefficient-SC" type="xs:decimal" use="optional"/>
+			<xs:attribute name="SolarHeatGainCoefficient-SHGC" type="xs:decimal" use="optional"/>
+			<xs:attribute name="GlazingAssemblyManufacturer" type="xs:string" use="optional"/>
+			<xs:attribute name="GlazingProductID" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

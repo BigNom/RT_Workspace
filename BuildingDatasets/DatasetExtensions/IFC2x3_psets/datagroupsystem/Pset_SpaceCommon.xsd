@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bAreaUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_SpaceCommon">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="PubliclyAccessible" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="HandicapAccessible" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="Category" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="FloorCovering" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="WallCovering" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="CeilingCovering" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="SkirtingBoard" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="GrossPlannedArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="NetPlannedArea" type="bAreaUnitsType" use="optional"/>
+			<xs:attribute name="ConcealedFlooring" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="ConcealedCeiling" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+

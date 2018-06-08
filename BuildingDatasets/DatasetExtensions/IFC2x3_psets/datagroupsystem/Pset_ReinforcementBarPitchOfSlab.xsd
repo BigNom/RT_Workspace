@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ReinforcementBarPitchOfSlab">
+		<xs:complexType>
+			<xs:attribute name="Reference" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="Description" type="xs:string" use="optional" default=""/>
+			<xs:attribute name="LongInsideCenterLowerBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="LongInsideCenterTopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="LongInsideEndLowerBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="LongInsideEndTopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="LongOutsideLowerBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="LongOutsideTopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="ShortInsideCenterLowerBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="ShortInsideCenterTopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="ShortInsideEndLowerBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="ShortInsideEndTopBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="ShortOutsideLowerBarPitch" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="ShortOutsideTopBarPitch" type="bWorkingUnitsType" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Pset_SpatialZoneEnergyAnalysis">
+		<xs:complexType>
+			<xs:attribute name="SpatialZoneConditioningRequirement" type="xs:string" use="optional"/>
+			<xs:attribute name="HVACSystemType" type="xs:string" use="optional"/>
+			<xs:attribute name="UserDefinedHVACSystemType" type="xs:string" use="optional"/>
+			<xs:attribute name="InfiltrationRate" type="xs:decimal" use="optional"/>
+			<xs:attribute name="IsDaylitZone" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="NumberOfDaylightSensors" type="xs:integer" use="optional"/>
+			<xs:attribute name="DesignIlluminance" type="xs:decimal" use="optional"/>
+			<xs:attribute name="LightingControlsType" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<DataGroupSystem>
+	<Version major="1" minor="0"/>
+	<Filter>
+		<Products>
+			<Product name="IFC" displayName="IFC Types">
+				<CatalogType>IfcZone</CatalogType>
+			</Product>
+		</Products>
+	</Filter>
+</DataGroupSystem>

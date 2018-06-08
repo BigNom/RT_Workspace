@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bWorkingUnitsType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ValveTypeCommon">
+		<xs:complexType>
+			<xs:attribute name="ValvePattern" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="ValveOperation" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="ValveMechanism" type="bEnumLookupType" use="optional"/>
+			<xs:attribute name="Size" type="bWorkingUnitsType" use="optional"/>
+			<xs:attribute name="BodyMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="OperatingMechanismMaterial" type="xs:string" use="optional"/>
+			<xs:attribute name="TestPressure" type="xs:decimal" use="optional"/>
+			<xs:attribute name="WorkingPressure" type="xs:decimal" use="optional"/>
+			<xs:attribute name="FlowCoefficient" type="xs:decimal" use="optional"/>
+			<xs:attribute name="CloseOffRating" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

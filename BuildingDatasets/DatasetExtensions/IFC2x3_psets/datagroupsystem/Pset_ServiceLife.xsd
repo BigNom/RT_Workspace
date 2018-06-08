@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="bEnumLookupType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:element name="Pset_ServiceLife">
+		<xs:complexType>
+			<xs:attribute name="ServiceLifeType" type="bEnumLookupType" use="optional"/>
+			<!-- <xs:attribute name="ServiceLifeDuration" type="xs:string" use="optional"/>  -->
+			<!-- replaced with COBie_ServiceLife/@ServiceLifeDuration -->
+			<xs:attribute name="QualityOfComponents" type="xs:string" use="optional"/>
+			<xs:attribute name="DesignLevel" type="xs:string" use="optional"/>
+			<xs:attribute name="WorkExecutionLevel" type="xs:string" use="optional"/>
+			<xs:attribute name="IndoorEnvironment" type="xs:string" use="optional"/>
+			<xs:attribute name="OutdoorEnvironment" type="xs:string" use="optional"/>
+			<xs:attribute name="InUseConditions" type="xs:string" use="optional"/>
+			<xs:attribute name="MaintenanceLevel" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
